@@ -1,0 +1,98 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Business on Rockblog",
+    "description": "Thought and work on the redrock postgres database",
+    "home_page_url" : "http://blog.rockdata.net/",
+    "feed_url" : "http://blog.rockdata.net/tags/business/feed.json",
+    "authors" : [
+        {
+            "name" : "John Doe"
+        }
+    ],
+    "items" : [
+        {
+            "title" : "Criticism of relational database",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/database-criticism/",
+            "url" : "http://blog.rockdata.net/posts/software/database-criticism/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#August_31_2020\"\n  \n\u003eThe Inner Workings of Oracle Development\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eOracle\u0026rsquo;s Steinar Gunderson posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql.html\"\n  \n\u003eLeaving MySQL\u003c/a\u003e, and \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://news.ycombinator.com/item?id=29455852\"\n  \n\u003ediscussion at Hacker News\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eGitlab\u0026rsquo;s Kenny Johnston posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://about.gitlab.com/blog/2019/06/27/removing-mysql-support/\"\n  \n\u003eWhy we\u0026rsquo;re ending support for MySQL in 12.1\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eUber\u0026rsquo;s Evan Klitzke posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql\"\n  \n\u003eMigrating Uber from MySQL to PostgreSQL\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eUber\u0026rsquo;s Evan Klitzke posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://eng.uber.com/postgres-to-mysql-migration/\"\n  \n\u003eWhy Uber Engineering Switched from Postgres to MySQL\u003c/a\u003e, and \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://news.ycombinator.com/item?id=26283348\"\n  \n\u003ediscussion at Hacker News\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eRick Branson posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791\"\n  \n\u003e10 Things I Hate About PostgreSQL\u003c/a\u003e, and \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://news.ycombinator.com/item?id=26709019\"\n  \n\u003ediscussion at Hacker News\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "Postgres things",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/postgres-things/",
+            "url" : "http://blog.rockdata.net/posts/software/postgres-things/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#September_16_2020\"\n  \n\u003eWhy Not to Choose Postgres\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#July_8_2020\"\n  \n\u003ePostgres Marketing\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "Some well-known database courses",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/database-courses/",
+            "url" : "http://blog.rockdata.net/posts/software/database-courses/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003eUC Berkeley published \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://cs186berkeley.net/\"\n  \n\u003eCS 186 (Spring 2022) Introduction to Database Systems\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCMU\u0026rsquo;s Andrew Crotty published \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://15445.courses.cs.cmu.edu/fall2021/\"\n  \n\u003eCMU 15-445 (FALL 2021) Intro to Database Systems\u003c/a\u003e, and related \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://15445.courses.cs.cmu.edu/fall2021/slides/\"\n  \n\u003eresources\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCMU\u0026rsquo;s Prof. Andy Pavlo published \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://15721.courses.cs.cmu.edu/spring2020/\"\n  \n\u003eCMU 15-721 (SPRING 2020) Advanced Database Systems\u003c/a\u003e, and related \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://15721.courses.cs.cmu.edu/spring2020/slides/\"\n  \n\u003eresources\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "Trends of postgres's popularity",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/postgres-popularity/",
+            "url" : "http://blog.rockdata.net/posts/software/postgres-popularity/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003eAmazon\u0026rsquo;s Jeff Barr posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://aws.amazon.com/blogs/aws/migration-complete-amazons-consumer-business-just-turned-off-its-final-oracle-database/\"\n  \n\u003eMigration Complete – Amazon’s Consumer Business Just Turned off its Final Oracle Database\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2016.html#March_22_2016\"\n  \n\u003eOracle Attacks Postgres in Russia\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#September_30_2020\"\n  \n\u003eThree Postgres Adoption Groups in Enterprises\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2021.html#November_17_2021\"\n  \n\u003eEnterprise Postgres Growth in Japan\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003ePercona\u0026rsquo;s Matt Yonkovit posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://db-engines.com/en/blog_post/90\"\n  \n\u003eThe Inexorable Rise of PostgreSQL\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003ePercona\u0026rsquo;s Umair Shahid posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://db-engines.com/en/blog_post/92\"\n  \n\u003eDriving the Future of PostgreSQL Adoption\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "User centric product design",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/user-centric/",
+            "url" : "http://blog.rockdata.net/posts/software/user-centric/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003e张小龙谈产品：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/2142.html\"\n  \n\u003e产品的思路\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e周鸿祎谈产品：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/5957.html\"\n  \n\u003e像怀胎一样怀产品，要厚着脸皮听批评\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eAmazon\u0026rsquo;s Constantin Gonzalez says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://cdn0.scrvt.com/infopark23444378/16ee7c58ea6547e8/e1409f266854/Gonzalez_Innovating_on_Behalf_of_Customers-ilovepdf-compressed.pdf\"\n  \n\u003eInnovating on Behalf of Customers\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eNetgen\u0026rsquo;s Mario Blažek says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://netgen.io/blog/the-most-overlooked-part-in-software-development-writing-project-documentation\"\n  \n\u003eThe most overlooked part in software development - writing project documentation\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCommand Prompt\u0026rsquo;s Joshua D. Drake states that PostgreSQL community should \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://commandprompt.com/blog/optimizing-documentation/\"\n  \n\u003eOptimizing the documentation\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "What dose Open Souce means to users and developers?",
+            "date_published" : "2022-05-20T09:00:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/open-source/",
+            "url" : "http://blog.rockdata.net/posts/software/open-source/","authors" : [
+                {
+                    "name" : "John Doe"
+                }
+            ],
+            "content_html" : "\u003cp\u003esolid IT\u0026rsquo;s Matthias Gelbmann posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://db-engines.com/en/blog_post/86\"\n  \n\u003eOpen source database management systems are now more popular than commercial offerings\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#October_2_2020\"\n  \n\u003eThe Economics of Open Source Contributions\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#September_28_2020\"\n  \n\u003eCloud Vendor Monetization of Open Source\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#September_25_2020\"\n  \n\u003eCloud Vendors as a Barrier\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#September_23_2020\"\n  \n\u003eDevelopers in Front\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eEDB\u0026rsquo;s Bruce Momjian posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://momjian.us/main/blogs/pgblog/2020.html#August_26_2020\"\n  \n\u003eDevelopment Methods\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCommand Prompt\u0026rsquo;s Joshua D. Drake posted \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://commandprompt.com/blog/thoughts-on-forks-and-open-source-licenses/\"\n  \n\u003eThoughts on Forks and Open Source Licenses\u003c/a\u003e.\u003c/p\u003e\n"
+        },
+        {
+            "title" : "Leaving MySQL",
+            "date_published" : "2021-12-05T16:41:00+02:00",
+            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "id" : "http://blog.rockdata.net/posts/software/leaving-mysql/",
+            "url" : "http://blog.rockdata.net/posts/software/leaving-mysql/","authors" : [
+                {
+                    "name" : "Steinar Gunderson"
+                }
+            ],
+            "content_html" : "\u003cp\u003eToday was my last day at Oracle, and thus also in the MySQL team.\u003c/p\u003e\n\u003cp\u003eWhen a decision comes to switch workplaces, there\u0026rsquo;s always the question of “why”, but that question always has multiple answers, and perhaps the simplest one is that I found another opportunity, and and as a whole, it was obvious it was time to move on when that arrived.\u003c/p\u003e\n\u003cp\u003eBut it doesn\u0026rsquo;t really explain why I did go looking for that somewhere else in the first place. The reasons for that are again complex, and it\u0026rsquo;s not possible to reduce to a single thing. But nevertheless, let me point out something that I\u0026rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I\u0026rsquo;ve been staying away from stages talking about MySQL): *MySQL is a pretty poor database, and you should strongly consider using Postgres instead.*1\u003c/p\u003e\n\u003cp\u003eComing to MySQL was like stepping into a parallel universe, where there were lots of people genuinely believing that MySQL was a state-of-the-art product. At the same time, I was attending orientation and told how the optimizer worked internally, and I genuinely needed shock pauses to take in how primitive nearly everything was. It felt bizarre, but I guess you soon get used to it. In a sense, it didn\u0026rsquo;t bother me that much; lots of bad code means there\u0026rsquo;s plenty of room for opportunity for improvement, and management was strongly supportive of large refactors. More jarring were the people who insisted everything was OK (it seems most MySQL users and developers don\u0026rsquo;t really use other databases); even obviously crazy things like the executor, where everything was one big lump and everything interacted with everything else2, was hailed as “efficient” (it wasn\u0026rsquo;t).\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t get me wrong; I am genuinely proud of the work I have been doing, and MySQL 8.0 (with its ever-increasing minor version number) is a much better product than 5.7 was—and it will continue to improve. But there is only so much you can do; the changes others and I have been doing take the MySQL optimizer towards a fairly standard early-2000s design with some nice tweaks, but that\u0026rsquo;s also where it ends. (Someone called it “catching up, one decade at a time”, and I\u0026rsquo;m not sure if it was meant positively or negatively, but I thought a bit of it as a badge of honor.) In the end, there\u0026rsquo;s just not enough resources that I could see it turn into a competitive product, no matter how internal company communications tried to spin that Oracle is filled with geniuses and WE ARE WINNING IN THE CLOUD. And that\u0026rsquo;s probably fine (and again, not really why I quit); if you\u0026rsquo;re using MySQL and it works for you, sure, go ahead. But perhaps consider taking a look at the other side of that fence at some point, past the “OMG vacuum” memes.\u003c/p\u003e\n\u003cp\u003eMy new role will be in the Google Chrome team. It was probably about time; my T-shirt collection was getting a bit worn.\u003c/p\u003e\n\u003cp\u003e1 Don\u0026rsquo;t believe for a second that MariaDB is any better. Monty and his merry men left because they were unhappy about the new governance, not because they suddenly woke up one day and realized what a royal mess they had created in the code.\u003c/p\u003e\n\u003cp\u003e2 For instance, the sorter literally had to care whether its input came from a table scan or a range scan, because there was no modularity. Anything that wasn\u0026rsquo;t either of those two, including joins, required great contortions. Full outer joins were simply impossible to execute in the given design without rewriting the query (MySQL still doesn\u0026rsquo;t support them, but at least now it\u0026rsquo;s not hampered by the old we-can-do-left-deep-plans-only design). And don\u0026rsquo;t even get me started on the “slice” system, which is perhaps the single craziest design I\u0026rsquo;ve ever seen in any real-world software.\u003c/p\u003e\n\u003cp\u003e\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql.html\"\n  \n\u003eOriginal blog\u003c/a\u003e\n\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://news.ycombinator.com/item?id=29455852\"\n  \n\u003eThe discussion at Hacker News\u003c/a\u003e\u003c/p\u003e\n"
+        }
+    ]
+}

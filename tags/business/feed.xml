@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
+    <title>Business on Rockblog</title>
+        <subtitle>Thought and work on the redrock postgres database</subtitle>
+            <link href="http://blog.rockdata.net/tags/business/" rel="alternate" type="text/html" title="HTML" />
+            <link href="http://blog.rockdata.net/tags/business/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="http://blog.rockdata.net/tags/business/feed.json" rel="alternate" type="application/json" title="Json" />
+    <updated>2022-05-23T23:24:28+08:00</updated>
+        <author>
+            <name>John Doe</name>
+                <email>john@example.com</email>
+        </author>
+    <id>http://blog.rockdata.net/tags/business/</id>
+        <entry>
+            <title>Criticism of relational database</title>
+            <link href="http://blog.rockdata.net/posts/software/database-criticism/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/database-criticism/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#August_31_2020&#34;
+  
+&gt;The Inner Workings of Oracle Development&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Oracle&amp;rsquo;s Steinar Gunderson posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql.html&#34;
+  
+&gt;Leaving MySQL&lt;/a&gt;, and &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://news.ycombinator.com/item?id=29455852&#34;
+  
+&gt;discussion at Hacker News&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Gitlab&amp;rsquo;s Kenny Johnston posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://about.gitlab.com/blog/2019/06/27/removing-mysql-support/&#34;
+  
+&gt;Why we&amp;rsquo;re ending support for MySQL in 12.1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Uber&amp;rsquo;s Evan Klitzke posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#34;
+  
+&gt;Migrating Uber from MySQL to PostgreSQL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Uber&amp;rsquo;s Evan Klitzke posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://eng.uber.com/postgres-to-mysql-migration/&#34;
+  
+&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;, and &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://news.ycombinator.com/item?id=26283348&#34;
+  
+&gt;discussion at Hacker News&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Rick Branson posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791&#34;
+  
+&gt;10 Things I Hate About PostgreSQL&lt;/a&gt;, and &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://news.ycombinator.com/item?id=26709019&#34;
+  
+&gt;discussion at Hacker News&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>Postgres things</title>
+            <link href="http://blog.rockdata.net/posts/software/postgres-things/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/postgres-things/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_16_2020&#34;
+  
+&gt;Why Not to Choose Postgres&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#July_8_2020&#34;
+  
+&gt;Postgres Marketing&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>Some well-known database courses</title>
+            <link href="http://blog.rockdata.net/posts/software/database-courses/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/database-courses/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;UC Berkeley published &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://cs186berkeley.net/&#34;
+  
+&gt;CS 186 (Spring 2022) Introduction to Database Systems&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;CMU&amp;rsquo;s Andrew Crotty published &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://15445.courses.cs.cmu.edu/fall2021/&#34;
+  
+&gt;CMU 15-445 (FALL 2021) Intro to Database Systems&lt;/a&gt;, and related &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://15445.courses.cs.cmu.edu/fall2021/slides/&#34;
+  
+&gt;resources&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;CMU&amp;rsquo;s Prof. Andy Pavlo published &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://15721.courses.cs.cmu.edu/spring2020/&#34;
+  
+&gt;CMU 15-721 (SPRING 2020) Advanced Database Systems&lt;/a&gt;, and related &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://15721.courses.cs.cmu.edu/spring2020/slides/&#34;
+  
+&gt;resources&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>Trends of postgres&#39;s popularity</title>
+            <link href="http://blog.rockdata.net/posts/software/postgres-popularity/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/postgres-popularity/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;Amazon&amp;rsquo;s Jeff Barr posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://aws.amazon.com/blogs/aws/migration-complete-amazons-consumer-business-just-turned-off-its-final-oracle-database/&#34;
+  
+&gt;Migration Complete – Amazon’s Consumer Business Just Turned off its Final Oracle Database&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2016.html#March_22_2016&#34;
+  
+&gt;Oracle Attacks Postgres in Russia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_30_2020&#34;
+  
+&gt;Three Postgres Adoption Groups in Enterprises&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2021.html#November_17_2021&#34;
+  
+&gt;Enterprise Postgres Growth in Japan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Percona&amp;rsquo;s Matt Yonkovit posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://db-engines.com/en/blog_post/90&#34;
+  
+&gt;The Inexorable Rise of PostgreSQL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Percona&amp;rsquo;s Umair Shahid posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://db-engines.com/en/blog_post/92&#34;
+  
+&gt;Driving the Future of PostgreSQL Adoption&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>User centric product design</title>
+            <link href="http://blog.rockdata.net/posts/software/user-centric/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/user-centric/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;张小龙谈产品：&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.huxiu.com/article/2142.html&#34;
+  
+&gt;产品的思路&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;周鸿祎谈产品：&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.huxiu.com/article/5957.html&#34;
+  
+&gt;像怀胎一样怀产品，要厚着脸皮听批评&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Amazon&amp;rsquo;s Constantin Gonzalez says &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://cdn0.scrvt.com/infopark23444378/16ee7c58ea6547e8/e1409f266854/Gonzalez_Innovating_on_Behalf_of_Customers-ilovepdf-compressed.pdf&#34;
+  
+&gt;Innovating on Behalf of Customers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Netgen&amp;rsquo;s Mario Blažek says &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://netgen.io/blog/the-most-overlooked-part-in-software-development-writing-project-documentation&#34;
+  
+&gt;The most overlooked part in software development - writing project documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Command Prompt&amp;rsquo;s Joshua D. Drake states that PostgreSQL community should &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://commandprompt.com/blog/optimizing-documentation/&#34;
+  
+&gt;Optimizing the documentation&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>What dose Open Souce means to users and developers?</title>
+            <link href="http://blog.rockdata.net/posts/software/open-source/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/open-source/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;solid IT&amp;rsquo;s Matthias Gelbmann posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://db-engines.com/en/blog_post/86&#34;
+  
+&gt;Open source database management systems are now more popular than commercial offerings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#October_2_2020&#34;
+  
+&gt;The Economics of Open Source Contributions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_28_2020&#34;
+  
+&gt;Cloud Vendor Monetization of Open Source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_25_2020&#34;
+  
+&gt;Cloud Vendors as a Barrier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_23_2020&#34;
+  
+&gt;Developers in Front&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#August_26_2020&#34;
+  
+&gt;Development Methods&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Command Prompt&amp;rsquo;s Joshua D. Drake posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://commandprompt.com/blog/thoughts-on-forks-and-open-source-licenses/&#34;
+  
+&gt;Thoughts on Forks and Open Source Licenses&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+        <entry>
+            <title>Leaving MySQL</title>
+            <link href="http://blog.rockdata.net/posts/software/leaving-mysql/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/software/leaving-mysql/</id>
+                    <author>
+                        <name>Steinar Gunderson</name>
+                    </author>
+            <published>2021-12-05T16:41:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;Today was my last day at Oracle, and thus also in the MySQL team.&lt;/p&gt;
+&lt;p&gt;When a decision comes to switch workplaces, there&amp;rsquo;s always the question of “why”, but that question always has multiple answers, and perhaps the simplest one is that I found another opportunity, and and as a whole, it was obvious it was time to move on when that arrived.&lt;/p&gt;
+&lt;p&gt;But it doesn&amp;rsquo;t really explain why I did go looking for that somewhere else in the first place. The reasons for that are again complex, and it&amp;rsquo;s not possible to reduce to a single thing. But nevertheless, let me point out something that I&amp;rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I&amp;rsquo;ve been staying away from stages talking about MySQL): *MySQL is a pretty poor database, and you should strongly consider using Postgres instead.*1&lt;/p&gt;
+&lt;p&gt;Coming to MySQL was like stepping into a parallel universe, where there were lots of people genuinely believing that MySQL was a state-of-the-art product. At the same time, I was attending orientation and told how the optimizer worked internally, and I genuinely needed shock pauses to take in how primitive nearly everything was. It felt bizarre, but I guess you soon get used to it. In a sense, it didn&amp;rsquo;t bother me that much; lots of bad code means there&amp;rsquo;s plenty of room for opportunity for improvement, and management was strongly supportive of large refactors. More jarring were the people who insisted everything was OK (it seems most MySQL users and developers don&amp;rsquo;t really use other databases); even obviously crazy things like the executor, where everything was one big lump and everything interacted with everything else2, was hailed as “efficient” (it wasn&amp;rsquo;t).&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong; I am genuinely proud of the work I have been doing, and MySQL 8.0 (with its ever-increasing minor version number) is a much better product than 5.7 was—and it will continue to improve. But there is only so much you can do; the changes others and I have been doing take the MySQL optimizer towards a fairly standard early-2000s design with some nice tweaks, but that&amp;rsquo;s also where it ends. (Someone called it “catching up, one decade at a time”, and I&amp;rsquo;m not sure if it was meant positively or negatively, but I thought a bit of it as a badge of honor.) In the end, there&amp;rsquo;s just not enough resources that I could see it turn into a competitive product, no matter how internal company communications tried to spin that Oracle is filled with geniuses and WE ARE WINNING IN THE CLOUD. And that&amp;rsquo;s probably fine (and again, not really why I quit); if you&amp;rsquo;re using MySQL and it works for you, sure, go ahead. But perhaps consider taking a look at the other side of that fence at some point, past the “OMG vacuum” memes.&lt;/p&gt;
+&lt;p&gt;My new role will be in the Google Chrome team. It was probably about time; my T-shirt collection was getting a bit worn.&lt;/p&gt;
+&lt;p&gt;1 Don&amp;rsquo;t believe for a second that MariaDB is any better. Monty and his merry men left because they were unhappy about the new governance, not because they suddenly woke up one day and realized what a royal mess they had created in the code.&lt;/p&gt;
+&lt;p&gt;2 For instance, the sorter literally had to care whether its input came from a table scan or a range scan, because there was no modularity. Anything that wasn&amp;rsquo;t either of those two, including joins, required great contortions. Full outer joins were simply impossible to execute in the given design without rewriting the query (MySQL still doesn&amp;rsquo;t support them, but at least now it&amp;rsquo;s not hampered by the old we-can-do-left-deep-plans-only design). And don&amp;rsquo;t even get me started on the “slice” system, which is perhaps the single craziest design I&amp;rsquo;ve ever seen in any real-world software.&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql.html&#34;
+  
+&gt;Original blog&lt;/a&gt;
+&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://news.ycombinator.com/item?id=29455852&#34;
+  
+&gt;The discussion at Hacker News&lt;/a&gt;&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/steinar-gunderson" term="steinar-gunderson" label="steinar-gunderson" />  
+                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
+    <title>Practice on Rockblog</title>
+        <subtitle>Thought and work on the redrock postgres database</subtitle>
+            <link href="http://blog.rockdata.net/tags/practice/" rel="alternate" type="text/html" title="HTML" />
+            <link href="http://blog.rockdata.net/tags/practice/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="http://blog.rockdata.net/tags/practice/feed.json" rel="alternate" type="application/json" title="Json" />
+    <updated>2022-05-23T23:24:28+08:00</updated>
+        <author>
+            <name>John Doe</name>
+                <email>john@example.com</email>
+        </author>
+    <id>http://blog.rockdata.net/tags/practice/</id>
+        <entry>
+            <title>Points to note when migrating from oracle to postgres</title>
+            <link href="http://blog.rockdata.net/posts/practice/oracle-to-postgres/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/practice/oracle-to-postgres/</id>
+                    <author>
+                        <name>John Doe</name>
+                    </author>
+            <published>2022-05-20T09:00:00+02:00</published>
+            <updated>2022-05-23T20:20:52+08:00</updated>
+            <content type="html">
+                &lt;p&gt;CNBC&amp;rsquo;s Eugene Kim posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.cnbc.com/2018/10/23/amazon-move-off-oracle-caused-prime-day-outage-in-warehouse.html&#34;
+  
+&gt;Amazon’s move off Oracle caused Prime Day outage in one of its biggest warehouses, internal report says&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Amazon&amp;rsquo;s Baji Shaik, Deepak Mahto, and Sudip Acharya posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://aws.amazon.com/blogs/database/convert-the-number-data-type-from-oracle-to-postgresql-part-1/&#34;
+  
+&gt;Convert the NUMBER data type from Oracle to PostgreSQL – Part 1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Amazon&amp;rsquo;s Baji Shaik, Deepak Mahto, and Sudip Acharya posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://aws.amazon.com/blogs/database/convert-the-number-data-type-from-oracle-to-postgresql-part-2/&#34;
+  
+&gt;Convert the NUMBER data type from Oracle to PostgreSQL – Part 2&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/practice" term="practice" label="Practice" />
+        </entry>
+</feed>

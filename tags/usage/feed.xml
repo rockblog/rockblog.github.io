@@ -1,76 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
-    <title>Usage on Geekblog</title>
-        <subtitle>Subtitle to describe your blog</subtitle>
-            <link href="https://hugo-geekblog.geekdocs.de/tags/usage/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://hugo-geekblog.geekdocs.de/tags/usage/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-            <link href="https://hugo-geekblog.geekdocs.de/tags/usage/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-05-22T18:36:08+08:00</updated>
+    <title>Usage on Rockblog</title>
+        <subtitle>Thought and work on the redrock postgres database</subtitle>
+            <link href="http://blog.rockdata.net/tags/usage/" rel="alternate" type="text/html" title="HTML" />
+            <link href="http://blog.rockdata.net/tags/usage/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="http://blog.rockdata.net/tags/usage/feed.json" rel="alternate" type="application/json" title="Json" />
+    <updated>2022-05-23T23:24:28+08:00</updated>
         <author>
             <name>John Doe</name>
                 <email>john@example.com</email>
         </author>
-    <id>https://hugo-geekblog.geekdocs.de/tags/usage/</id>
+    <id>http://blog.rockdata.net/tags/usage/</id>
         <entry>
             <title>Getting Started</title>
-            <link href="https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/</id>
+            <link href="http://blog.rockdata.net/posts/usage/getting-started/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/usage/getting-started/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
-                    <author>
-                        <name>Sven Special</name>
-                    </author>
             <published>2020-07-15T20:00:00+02:00</published>
-            <updated>2022-05-22T14:46:26+08:00</updated>
+            <updated>2022-05-23T15:29:22+08:00</updated>
             <content type="html">
                 &lt;p&gt;Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.&lt;/p&gt;
-&lt;p&gt;&lt;a
-  class=&#34;gblog-markdown__link--raw&#34;
-  href=&#34;https://drone.thegeeklab.de/thegeeklab/hugo-geekblog&#34;
-  
-&gt;&lt;img
-  src=&#34;https://img.shields.io/drone/build/thegeeklab/hugo-geekblog?logo=drone&amp;amp;server=https%3A%2F%2Fdrone.thegeeklab.de&#34;
-  alt=&#34;Build Status&#34;
-  
-/&gt;&lt;/a&gt;
-&lt;a
-  class=&#34;gblog-markdown__link--raw&#34;
-  href=&#34;https://gohugo.io&#34;
-  
-&gt;&lt;img
-  src=&#34;https://img.shields.io/badge/hugo-0.65-blue.svg&#34;
-  alt=&#34;Hugo Version&#34;
-  
-/&gt;&lt;/a&gt;
-&lt;a
-  class=&#34;gblog-markdown__link--raw&#34;
-  href=&#34;https://github.com/thegeeklab/hugo-geekblog/releases/latest&#34;
-  
-&gt;&lt;img
-  src=&#34;https://img.shields.io/github/v/release/thegeeklab/hugo-geekblog&#34;
-  alt=&#34;GitHub release&#34;
-  
-/&gt;&lt;/a&gt;
-&lt;a
-  class=&#34;gblog-markdown__link--raw&#34;
-  href=&#34;https://github.com/thegeeklab/hugo-geekblog/graphs/contributors&#34;
-  
-&gt;&lt;img
-  src=&#34;https://img.shields.io/github/contributors/thegeeklab/hugo-geekblog&#34;
-  alt=&#34;GitHub contributors&#34;
-  
-/&gt;&lt;/a&gt;
-&lt;a
-  class=&#34;gblog-markdown__link--raw&#34;
-  href=&#34;https://github.com/thegeeklab/hugo-geekblog/blob/main/LICENSE&#34;
-  
-&gt;&lt;img
-  src=&#34;https://img.shields.io/github/license/thegeeklab/hugo-geekblog&#34;
-  alt=&#34;License: MIT&#34;
-  
-/&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -111,7 +63,7 @@
     &lt;h2 id=&#34;features&#34;&gt;
         Features
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#features&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Features&#34; href=&#34;#features&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#features&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Features&#34; href=&#34;#features&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -130,7 +82,7 @@
     &lt;h2 id=&#34;setup-requirements&#34;&gt;
         Setup requirements
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#setup-requirements&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Setup requirements&#34; href=&#34;#setup-requirements&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#setup-requirements&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Setup requirements&#34; href=&#34;#setup-requirements&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -153,7 +105,7 @@
     &lt;h2 id=&#34;using-the-theme&#34;&gt;
         Using the theme
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#using-the-theme&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Using the theme&#34; href=&#34;#using-the-theme&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#using-the-theme&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Using the theme&#34; href=&#34;#using-the-theme&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -244,7 +196,7 @@
     &lt;h3 id=&#34;option-1-download-pre-build-release-bundle&#34;&gt;
         Option 1: Download pre-build release bundle
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#option-1-download-pre-build-release-bundle&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Option 1: Download pre-build release bundle&#34; href=&#34;#option-1-download-pre-build-release-bundle&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#option-1-download-pre-build-release-bundle&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Option 1: Download pre-build release bundle&#34; href=&#34;#option-1-download-pre-build-release-bundle&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -255,7 +207,7 @@
     &lt;h3 id=&#34;option-2-clone-the-github-repository&#34;&gt;
         Option 2: Clone the GitHub repository
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#option-2-clone-the-github-repository&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Option 2: Clone the GitHub repository&#34; href=&#34;#option-2-clone-the-github-repository&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#option-2-clone-the-github-repository&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Option 2: Clone the GitHub repository&#34; href=&#34;#option-2-clone-the-github-repository&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -281,7 +233,7 @@ run the described steps as well.&lt;/div&gt;
     &lt;h2 id=&#34;deployments&#34;&gt;
         Deployments
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#deployments&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Deployments&#34; href=&#34;#deployments&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#deployments&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Deployments&#34; href=&#34;#deployments&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -289,7 +241,7 @@ run the described steps as well.&lt;/div&gt;
     &lt;h3 id=&#34;netlify&#34;&gt;
         Netlify
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#netlify&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Netlify&#34; href=&#34;#netlify&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#netlify&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Netlify&#34; href=&#34;#netlify&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -335,7 +287,7 @@ run the described steps as well.&lt;/div&gt;
     &lt;h3 id=&#34;subdirectories&#34;&gt;
         Subdirectories
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#subdirectories&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Subdirectories&#34; href=&#34;#subdirectories&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#subdirectories&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Subdirectories&#34; href=&#34;#subdirectories&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -366,7 +318,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h2 id=&#34;known-limitations&#34;&gt;
         Known Limitations
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#known-limitations&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Known Limitations&#34; href=&#34;#known-limitations&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#known-limitations&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Known Limitations&#34; href=&#34;#known-limitations&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -374,7 +326,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h3 id=&#34;minify-html-results-in-spacing-issues&#34;&gt;
         Minify HTML results in spacing issues
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#minify-html-results-in-spacing-issues&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Minify HTML results in spacing issues&#34; href=&#34;#minify-html-results-in-spacing-issues&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#minify-html-results-in-spacing-issues&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Minify HTML results in spacing issues&#34; href=&#34;#minify-html-results-in-spacing-issues&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -395,7 +347,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h2 id=&#34;whats-next&#34;&gt;
         Whats next?
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/getting-started/#whats-next&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Whats next?&#34; href=&#34;#whats-next&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#whats-next&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Whats next?&#34; href=&#34;#whats-next&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -483,16 +435,16 @@ If you have a choice, using a domain/subdomain should always be the preferred so
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+
             </content>  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/authors/john-doe" term="john-doe" label="john-doe" /> 
-                                <category scheme="https://hugo-geekblog.geekdocs.de/authors/special-user" term="special-user" label="Special User" />  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/usage" term="usage" label="Usage" />
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="http://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
         </entry>
         <entry>
             <title>Configuration</title>
-            <link href="https://hugo-geekblog.geekdocs.de/posts/usage/configuration/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>https://hugo-geekblog.geekdocs.de/posts/usage/configuration/</id>
+            <link href="http://blog.rockdata.net/posts/usage/configuration/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://blog.rockdata.net/posts/usage/configuration/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -523,7 +475,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h2 id=&#34;configuration&#34;&gt;
         Configuration
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/configuration/#configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Configuration&#34; href=&#34;#configuration&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Configuration&#34; href=&#34;#configuration&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -531,7 +483,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h3 id=&#34;site-configuration&#34;&gt;
         Site configuration
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/configuration/#site-configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Site configuration&#34; href=&#34;#site-configuration&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#site-configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Site configuration&#34; href=&#34;#site-configuration&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -812,7 +764,7 @@ If you have a choice, using a domain/subdomain should always be the preferred so
     &lt;h3 id=&#34;page-configuration&#34;&gt;
         Page configuration
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/configuration/#page-configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Page configuration&#34; href=&#34;#page-configuration&#34;&gt;
+    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#page-configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Page configuration&#34; href=&#34;#page-configuration&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -889,46 +841,8 @@ If you have a choice, using a domain/subdomain should always be the preferred so
   
 &lt;/div&gt;
             </content>  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/usage" term="usage" label="Usage" />
-        </entry>
-        <entry>
-            <title>Menus</title>
-            <link href="https://hugo-geekblog.geekdocs.de/posts/usage/menus/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>https://hugo-geekblog.geekdocs.de/posts/usage/menus/</id>
-                    <author>
-                        <name>John Doe</name>
-                    </author>
-            <published>2021-05-23T20:00:00+01:00</published>
-            <updated>2022-05-22T14:46:26+08:00</updated>
-            <content type="html">
-                &lt;p&gt;The theme supports different kinds of menus.&lt;/p&gt;
-&lt;div class=&#34;gblog-post__anchorwrap flex align-center&#34;&gt;
-    &lt;h3 id=&#34;extra-menu&#34;&gt;
-        Extra menu
-    &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;https://hugo-geekblog.geekdocs.de/posts/usage/menus/#extra-menu&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Extra menu&#34; href=&#34;#extra-menu&#34;&gt;
-        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;If you want to customize the menus (header and footer), this can be achieved by a data file. This file needs to be written in YAML and placed at data/menu/extra.yml.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Yaml&#34; data-lang=&#34;Yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Github Profile&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;gblog_github&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ref&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://github.com/xoxys&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;external&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;footer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Contact&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;gblog_email&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ref&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/contact&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-            </content>  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="https://hugo-geekblog.geekdocs.de/tags/usage" term="usage" label="Usage" />
+                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="http://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
         </entry>
 </feed>
