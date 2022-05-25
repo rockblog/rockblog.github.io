@@ -10,8 +10,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content="Hugo 0.99.1" />
-  <meta name="description" content="Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.
-   Features Setup requirements Using the theme  Option 1: Download pre-build release bundle Option 2: Clone the GitHub repository   Deployments  Netlify Subdirectories   Known Limitations  Minify HTML results in spacing issues   Whats next?" />
+  <meta name="description" content="Installation Architectural Fundamentals Accessing Database Whats next?      Installation     Before you can use PostgreSQL you need to install it, of course. It is possible that PostgreSQL is already installed at your site, either because it was included in your operating system distribution or because the system administrator already installed it. If that is the case, you should obtain information from the operating system documentation or your system administrator about how to access PostgreSQL." />
     <meta name="author" content="John Doe" />
 
     <title>Getting Started | Rockblog</title>
@@ -39,8 +38,7 @@
   />
   <meta property="og:site_name" content="Rockblog" />
   <meta property="og:image" content="http://blog.rockdata.net/socialmedia2.png" />
-  <meta property="og:description" content="Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.
-   Features Setup requirements Using the theme  Option 1: Download pre-build release bundle Option 2: Clone the GitHub repository   Deployments  Netlify Subdirectories   Known Limitations  Minify HTML results in spacing issues   Whats next?" />
+  <meta property="og:description" content="Installation Architectural Fundamentals Accessing Database Whats next?      Installation     Before you can use PostgreSQL you need to install it, of course. It is possible that PostgreSQL is already installed at your site, either because it was included in your operating system distribution or because the system administrator already installed it. If that is the case, you should obtain information from the operating system documentation or your system administrator about how to access PostgreSQL." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.rockdata.net/posts/usage/getting-started/" />
 
@@ -51,15 +49,14 @@
     />
     <meta
       property="article:modified_time"
-      content="2022-05-23T15:29:22+08:00"
+      content="2022-05-24T09:25:10+08:00"
     />
 
 
   <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Getting Started" />
   <meta property="twitter:image" content="http://blog.rockdata.net/socialmedia2.png" />
-  <meta name="twitter:description" content="Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.
-   Features Setup requirements Using the theme  Option 1: Download pre-build release bundle Option 2: Clone the GitHub repository   Deployments  Netlify Subdirectories   Known Limitations  Minify HTML results in spacing issues   Whats next?" />
+  <meta name="twitter:description" content="Installation Architectural Fundamentals Accessing Database Whats next?      Installation     Before you can use PostgreSQL you need to install it, of course. It is possible that PostgreSQL is already installed at your site, either because it was included in your operating system distribution or because the system administrator already installed it. If that is the case, you should obtain information from the operating system documentation or your system administrator about how to access PostgreSQL." />
 
 <script type="application/ld+json">
   {
@@ -69,9 +66,9 @@
       "name": "Getting Started",
       "url" : "http://blog.rockdata.net/posts/usage/getting-started/",
       "headline": "Getting Started",
-      "description": "Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.\n   Features Setup requirements Using the theme  Option 1: Download pre-build release bundle Option 2: Clone the GitHub repository   Deployments  Netlify Subdirectories   Known Limitations  Minify HTML results in spacing issues   Whats next?",
+      "description": "Installation Architectural Fundamentals Accessing Database Whats next?      Installation     Before you can use PostgreSQL you need to install it, of course. It is possible that PostgreSQL is already installed at your site, either because it was included in your operating system distribution or because the system administrator already installed it. If that is the case, you should obtain information from the operating system documentation or your system administrator about how to access PostgreSQL.",
       "thumbnailUrl": "http://blog.rockdata.net/socialmedia2.png",
-      "wordCount" : "1055",
+      "wordCount" : "974",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -89,7 +86,7 @@
       "copyrightYear" : "2020",
       "dateCreated": "2020-07-15T20:00:00.00Z",
       "datePublished": "2020-07-15T20:00:00.00Z",
-      "dateModified": "2022-05-23T15:29:22.00Z",
+      "dateModified": "2022-05-24T09:25:10.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "Rockblog",
@@ -822,11 +819,11 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
           <span class="flex align-center no-wrap">
   <svg class="gblog-icon gblog_date"><use xlink:href="#gblog_date"></use></svg>
   <span class="gblog-post__tag">
-    <time datetime="2022-05-23T15:29:22&#43;08:00">
+    <time datetime="2022-05-24T09:25:10&#43;08:00">
       
         Updated on
       
-      May 23, 2022
+      May 24, 2022
     </time>
   </span>
 </span>
@@ -919,31 +916,14 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
       
     </header>
     <section class="gblog-markdown">
-      <p>Geekblog is a simple Hugo theme for personal blogs. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. This post helps you to get started with the Geekblog theme, including initial setup and basic configuration.</p>
-
+      
 
 
   <div class="gblog-toc gblog-toc__level--3">
     <nav id="TableOfContents"><ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#setup-requirements">Setup requirements</a></li>
-        <li><a href="#using-the-theme">Using the theme</a>
-          <ul>
-            <li><a href="#option-1-download-pre-build-release-bundle">Option 1: Download pre-build release bundle</a></li>
-            <li><a href="#option-2-clone-the-github-repository">Option 2: Clone the GitHub repository</a></li>
-          </ul>
-        </li>
-        <li><a href="#deployments">Deployments</a>
-          <ul>
-            <li><a href="#netlify">Netlify</a></li>
-            <li><a href="#subdirectories">Subdirectories</a></li>
-          </ul>
-        </li>
-        <li><a href="#known-limitations">Known Limitations</a>
-          <ul>
-            <li><a href="#minify-html-results-in-spacing-issues">Minify HTML results in spacing issues</a></li>
-          </ul>
-        </li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#architectural-fundamentals">Architectural Fundamentals</a></li>
+        <li><a href="#accessing-database">Accessing Database</a></li>
         <li><a href="#whats-next">Whats next?</a></li>
       </ul></nav>
     <hr />
@@ -951,290 +931,95 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
 
 <div class="gblog-post__anchorwrap flex align-center">
-    <h2 id="features">
-        Features
+    <h2 id="installation">
+        Installation
     </h2>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#features" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Features" href="#features">
+    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#installation" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Installation" href="#installation">
         <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
     </a>
 </div>
+<p>Before you can use PostgreSQL you need to install it, of course. It is possible that PostgreSQL is already installed at your site, either because it was included in your operating system distribution or because the system administrator already installed it. If that is the case, you should obtain information from the operating system documentation or your system administrator about how to access PostgreSQL.</p>
+<p>If you are not sure whether PostgreSQL is already available or whether you can use it for your experimentation then you can install it yourself. Doing so is not hard and it can be a good exercise. PostgreSQL can be installed by any unprivileged user; no superuser (root) access is required.</p>
+<p>If you are installing PostgreSQL yourself, then refer to <a
+  class="gblog-markdown__link"
+  href="https://www.postgresql.org/docs/14/installation.html"
+  
+>Chapter 17</a> for instructions on installation, and return to this guide when the installation is complete. Be sure to follow closely the section about setting up the appropriate environment variables.</p>
+<p>If your site administrator has not set things up in the default way, you might have some more work to do. For example, if the database server machine is a remote machine, you will need to set the <code>PGHOST</code> environment variable to the name of the database server machine. The environment variable <code>PGPORT</code> might also have to be set. The bottom line is this: if you try to start an application program and it complains that it cannot connect to the database, you should consult your site administrator or, if that is you, the documentation to make sure that your environment is properly set up. If you did not understand the preceding paragraph then read the next section.</p>
+<div class="gblog-post__anchorwrap flex align-center">
+    <h2 id="architectural-fundamentals">
+        Architectural Fundamentals
+    </h2>
+    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#architectural-fundamentals" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Architectural Fundamentals" href="#architectural-fundamentals">
+        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+    </a>
+</div>
+<p>Before we proceed, you should understand the basic PostgreSQL system architecture. Understanding how the parts of PostgreSQL interact will make this chapter somewhat clearer.</p>
+<p>In database jargon, PostgreSQL uses a client/server model. A PostgreSQL session consists of the following cooperating processes (programs):</p>
 <ul>
-<li>Clean and simple design</li>
-<li>Light and mobile-friendly</li>
-<li>Easy customization</li>
-<li>Zero initial configuration</li>
-<li>Handy shortcodes</li>
-<li>Simple sticky posts</li>
-<li>Content tags</li>
-<li>Multiple authors</li>
-<li>Supports Atom and JSON feeds</li>
+<li>A server process, which manages the database files, accepts connections to the database from client applications, and performs database actions on behalf of the clients. The database server program is called <code>postgres</code>.</li>
+<li>The user&rsquo;s client (frontend) application that wants to perform database operations. Client applications can be very diverse in nature: a client could be a text-oriented tool, a graphical application, a web server that accesses the database to display web pages, or a specialized database maintenance tool. Some client applications are supplied with the PostgreSQL distribution; most are developed by users.</li>
 </ul>
+<p>As is typical of client/server applications, the client and the server can be on different hosts. In that case they communicate over a TCP/IP network connection. You should keep this in mind, because the files that can be accessed on a client machine might not be accessible (or might only be accessible using a different file name) on the database server machine.</p>
+<p>The PostgreSQL server can handle multiple concurrent connections from clients. To achieve this it starts (“forks”) a new process for each connection. From that point on, the client and the new server process communicate without intervention by the original <code>postgres</code> process. Thus, the supervisor server process is always running, waiting for client connections, whereas client and associated server processes come and go. (All of this is of course invisible to the user. We only mention it here for completeness.)</p>
 <div class="gblog-post__anchorwrap flex align-center">
-    <h2 id="setup-requirements">
-        Setup requirements
+    <h2 id="accessing-database">
+        Accessing Database
     </h2>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#setup-requirements" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Setup requirements" href="#setup-requirements">
+    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#accessing-database" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Accessing Database" href="#accessing-database">
         <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
     </a>
 </div>
-<p>You need a recent version of Hugo for local builds and previews of sites that use Geekblog. As we are using <a
-  class="gblog-markdown__link"
-  href="https://webpack.js.org/"
-  
->webpack</a> as pre-processor, the normal version of Hugo is sufficient. If you prefer the extended version of Hugo anyway this will work as well. For comprehensive Hugo documentation, see <a
-  class="gblog-markdown__link"
-  href="https://gohugo.io/documentation/"
-  
->gohugo.io</a>.</p>
-<p>If you want to use the theme from a cloned branch instead of a release tarball you&rsquo;ll need to install <code>webpack</code> locally and run the build script once to create all required assets.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl"><span class="c1"># install required packages from package.json</span>
-</span></span><span class="line"><span class="cl">npm install
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># run the build script to build required assets</span>
-</span></span><span class="line"><span class="cl">npm run build
-</span></span></code></pre></div><div class="gblog-post__anchorwrap flex align-center">
-    <h2 id="using-the-theme">
-        Using the theme
-    </h2>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#using-the-theme" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Using the theme" href="#using-the-theme">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<p>To prepare your new site environment just a few steps are required:</p>
-<ol>
-<li>
-<p>Create a new empty Hugo site.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">hugo new site demosite
-</span></span></code></pre></div></li>
-<li>
-<p>Switch to the root of the new site.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl"><span class="nb">cd</span> demosite
-</span></span></code></pre></div></li>
-<li>
-<p>Install the Geekblog theme from a <a
-  class="gblog-markdown__link"
-  href="#option-1-download-pre-build-release-bundle"
-  
->release bundle</a> (recommended) or form <a
-  class="gblog-markdown__link"
-  href="#option-2-clone-the-github-repository"
-  
->Git branch</a>.</p>
-</li>
-<li>
-<p>Create the minimal required Hugo configuration <code>config.toml</code>. For all configuration options see <a
-  class="gblog-markdown__link"
-  href="/posts/usage/configuration/#site-configuration"
-  
->here</a>.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Toml" data-lang="Toml"><span class="line"><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;http://localhost&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Geekblog&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-geekblog&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">pluralizeListTitles</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Geekblog required configuration</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">disablePathToLower</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Needed for mermaid shortcodes</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">tableOfContents</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">startLevel</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">endLevel</span> <span class="p">=</span> <span class="mi">9</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">author</span> <span class="p">=</span> <span class="s2">&#34;authors&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">mediaTypes</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">mediaTypes</span><span class="p">.</span><span class="s2">&#34;application/atom+xml&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">suffixes</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;xml&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">outputFormats</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">outputFormats</span><span class="p">.</span><span class="nx">Atom</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Atom&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mediaType</span> <span class="p">=</span> <span class="s2">&#34;application/atom+xml&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">baseName</span> <span class="p">=</span> <span class="s2">&#34;feed&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">isPlainText</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">rel</span> <span class="p">=</span> <span class="s2">&#34;alternate&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">isHTML</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">noUgly</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">permalinkable</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">outputs</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">home</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;ATOM&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">page</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">section</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">taxonomy</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">term</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;ATOM&#34;</span><span class="p">]</span>
-</span></span></code></pre></div></li>
-<li>
-<p>Test your site.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">hugo server -D
-</span></span></code></pre></div><p>If you want to add some demo data you could use the content from the <a
-  class="gblog-markdown__link"
-  href="https://github.com/gohugoio/hugoBasicExample"
-  
->Hugo basic example</a>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">curl -L https://github.com/gohugoio/hugoBasicExample/archive/master.tar.gz <span class="p">|</span> tar -xz --exclude <span class="s2">&#34;config*&#34;</span> --exclude <span class="s2">&#34;LICENSE&#34;</span> --exclude <span class="s2">&#34;README*&#34;</span> --strip-components<span class="o">=</span><span class="m">1</span>
-</span></span></code></pre></div></li>
-</ol>
-<div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="option-1-download-pre-build-release-bundle">
-        Option 1: Download pre-build release bundle
-    </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#option-1-download-pre-build-release-bundle" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Option 1: Download pre-build release bundle" href="#option-1-download-pre-build-release-bundle">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<p>Download and extract the latest release bundle into the theme directory.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">mkdir -p themes/hugo-geekblog/
-</span></span><span class="line"><span class="cl">curl -L https://github.com/thegeeklab/hugo-geekblog/releases/latest/download/hugo-geekblog.tar.gz <span class="p">|</span> tar -xz -C themes/hugo-geekblog/ --strip-components<span class="o">=</span><span class="m">1</span>
-</span></span></code></pre></div><div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="option-2-clone-the-github-repository">
-        Option 2: Clone the GitHub repository
-    </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#option-2-clone-the-github-repository" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Option 2: Clone the GitHub repository" href="#option-2-clone-the-github-repository">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-
-
-
-
-
-<blockquote class="gblog-hint note">
-  <div class="gblog-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
-  <div class="gblog-hint__text"><strong>Info</strong><br>
-Keep in mind this method is not recommended and needs some extra steps to get it working.
-If you want to use the Theme as submodule keep in mind that your build process need to
-run the described steps as well.</div>
-</blockquote>
-
-<p>Clone the Geekblog git repository.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">git clone https://github.com/thegeeklab/hugo-geekblog.git themes/hugo-geekblog
-</span></span></code></pre></div><p>Build required theme assets e.g. CSS files and SVG sprites.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">npm install
-</span></span><span class="line"><span class="cl">npm run build
-</span></span></code></pre></div><div class="gblog-post__anchorwrap flex align-center">
-    <h2 id="deployments">
-        Deployments
-    </h2>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#deployments" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Deployments" href="#deployments">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="netlify">
-        Netlify
-    </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#netlify" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Netlify" href="#netlify">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<p>There are several ways to deploy your site with this theme on Netlify. Regardless of which solution you choose, the main goal is to ensure that the prebuilt theme release tarball is used or to run the <a
-  class="gblog-markdown__link"
-  href="#option-2-clone-the-github-repository"
-  
->required commands</a> to prepare the theme assets before running the Hugo build command.</p>
-<p>Here are some possible solutions:</p>
-<p><strong>Use a Makefile:</strong></p>
-<p>Add a Makefile to your repository to bundle the required steps.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Makefile" data-lang="Makefile"><span class="line"><span class="cl"><span class="nv">THEME_VERSION</span> <span class="o">:=</span> v0.8.2
-</span></span><span class="line"><span class="cl"><span class="nv">THEME</span> <span class="o">:=</span> hugo-geekblog
-</span></span><span class="line"><span class="cl"><span class="nv">BASEDIR</span> <span class="o">:=</span> docs
-</span></span><span class="line"><span class="cl"><span class="nv">THEMEDIR</span> <span class="o">:=</span> <span class="k">$(</span>BASEDIR<span class="k">)</span>/themes
-</span></span><span class="line"><span class="cl"><span class="nf">.PHONY</span><span class="o">:</span> <span class="n">doc</span>
-</span></span><span class="line"><span class="cl"><span class="nf">doc</span><span class="o">:</span> <span class="n">doc</span>-<span class="n">assets</span> <span class="n">doc</span>-<span class="n">build</span>
-</span></span><span class="line"><span class="cl"><span class="nf">.PHONY</span><span class="o">:</span> <span class="n">doc</span>-<span class="n">assets</span>
-</span></span><span class="line"><span class="cl"><span class="nf">doc-assets</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">   mkdir -p <span class="k">$(</span>THEMEDIR<span class="k">)</span>/<span class="k">$(</span>THEME<span class="k">)</span>/ <span class="p">;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>   curl -sSL <span class="s2">&#34;https://github.com/thegeeklab/</span><span class="k">$(</span>THEME<span class="k">)</span><span class="s2">/releases/download/</span><span class="si">${</span><span class="nv">THEME_VERSION</span><span class="si">}</span><span class="s2">/</span><span class="k">$(</span>THEME<span class="k">)</span><span class="s2">.tar.gz&#34;</span> <span class="p">|</span> tar -xz -C <span class="k">$(</span>THEMEDIR<span class="k">)</span>/<span class="k">$(</span>THEME<span class="k">)</span>/ --strip-components<span class="o">=</span><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="nf">.PHONY</span><span class="o">:</span> <span class="n">doc</span>-<span class="n">build</span>
-</span></span><span class="line"><span class="cl"><span class="nf">doc-build</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">cd</span> <span class="k">$(</span>BASEDIR<span class="k">)</span><span class="p">;</span> hugo
-</span></span><span class="line"><span class="cl"><span class="nf">.PHONY</span><span class="o">:</span> <span class="n">clean</span>
-</span></span><span class="line"><span class="cl"><span class="nf">clean</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">   rm -rf <span class="k">$(</span>THEMEDIR<span class="k">)</span> <span class="o">&amp;&amp;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>   rm -rf <span class="k">$(</span>BASEDIR<span class="k">)</span>/public
-</span></span></code></pre></div><p>This Makefile can be used in your <code>netlify.toml</code>, take a look at the Netlify <a
-  class="gblog-markdown__link"
-  href="https://docs.netlify.com/configure-builds/file-based-configuration/#sample-netlify-toml-file"
-  
->example</a> for more information:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">publish</span> <span class="p">=</span> <span class="s2">&#34;docs/public&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make doc&#34;</span>
-</span></span></code></pre></div><p><strong>Chain required commands:</strong></p>
-<p>Chain all required commands to prepare the theme and build your site on the <code>command</code> option in your <code>netlify.toml</code> like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">publish</span> <span class="p">=</span> <span class="s2">&#34;docs/public&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;command1 &amp;&amp; command 2 &amp;&amp; command3 &amp;&amp; hugo&#34;</span>
-</span></span></code></pre></div><div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="subdirectories">
-        Subdirectories
-    </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#subdirectories" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Subdirectories" href="#subdirectories">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-
-
-
-
-
-<blockquote class="gblog-hint important">
-  <div class="gblog-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
-  <div class="gblog-hint__text"><strong>Warning</strong><br>
-As deploying Hugo sites on subdirectories is not as robust as on subdomains, we do not recommend this.
-If you have a choice, using a domain/subdomain should always be the preferred solution!</div>
-</blockquote>
-
-<p>If you want to deploy your side to a subdirectory of your domain, some extra steps are required:</p>
+<p>Once you have created a database, you can access it by:</p>
 <ul>
-<li>Configure your Hugo base URL e.g. <code>baseURL = http://localhost/demo/</code>.</li>
-<li>Don&rsquo;t use <code>relativeURLs: false</code> nor <code>canonifyURLs: true</code> as is can cause unwanted side effects!</li>
-</ul>
-<p>There are two ways to get Markdown links or images working:</p>
-<ul>
-<li>Use the absolute path including your subdirectory e.g. <code>[testlink](/demo/example-site)</code></li>
-<li>Overwrite the HTML base in your site configuration with <code>geekblogOverwriteHTMLBase = true</code> and use the relative path e.g. <code>[testlink](example-site)</code></li>
-</ul>
-<p>But there is another special case if you use <code>geekblogOverwriteHTMLBase = true</code>. If you use anchors in your Markdown links you have to ensure to always include the page path. As an example <code>[testlink](#some-anchor)</code> will resolve to <code>http://localhost/demo/#some-anchor</code> and not automatically include the current page!</p>
-<div class="gblog-post__anchorwrap flex align-center">
-    <h2 id="known-limitations">
-        Known Limitations
-    </h2>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#known-limitations" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Known Limitations" href="#known-limitations">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="minify-html-results-in-spacing-issues">
-        Minify HTML results in spacing issues
-    </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/getting-started/#minify-html-results-in-spacing-issues" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Minify HTML results in spacing issues" href="#minify-html-results-in-spacing-issues">
-        <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
-    </a>
-</div>
-<p>Using <code>hugo --minify</code> without further configuration or using other minify tools that also minify HTML files might result in spacing issues in the theme and is <strong>not</strong> supported.</p>
-<p>After some testing we decided to not spend effort to fix this issue for now as the benefit is very low. There are some parts of the theme where spaces between HTML elements matters but were stripped by minify tools. Some of these issues are related to <!-- spellchecker-disable --><a
+<li>Running the PostgreSQL interactive terminal program, called <em>psql</em>, which allows you to interactively enter, edit, and execute SQL commands.</li>
+<li>Using an existing graphical frontend tool like pgAdmin or an office suite with ODBC or JDBC support to create and manipulate a database. These possibilities are not covered in this tutorial.</li>
+<li>Writing a custom application, using one of the several available language bindings. These possibilities are discussed further in <a
   class="gblog-markdown__link"
-  href="https://github.com/gohugoio/hugo/issues/6892"
+  href="https://www.postgresql.org/docs/12/client-interfaces.html"
   
->gohugoio/hugo#6892</a>.<!-- spellchecker-enable --> While recommendation like &ldquo;don&rsquo;t depend on whitespace in your layout&rdquo; sounds reasonable, it seems to be not that straight forward especially for something like embedded icons into the text flow.</p>
-<p>If you still want to use Hugo&rsquo;s minify flag you should at least exclude HTML file in your site <a
+>Part IV</a>.</li>
+</ul>
+<p>You probably want to start up <code>psql</code> to try the examples in this tutorial. It can be activated for the <code>postgres</code> database by typing the command:</p>
+<pre tabindex="0"><code>$ psql postgres
+</code></pre><p>If you do not supply the database name then it will default to your user account name.</p>
+<p>In <code>psql</code>, you will be greeted with the following message:</p>
+<pre tabindex="0"><code>psql (12.1)
+Type &#34;help&#34; for help.
+
+postgres=&gt;
+</code></pre><p>The last line could also be:</p>
+<pre tabindex="0"><code>postgres=#
+</code></pre><p>That would mean you are a database superuser, which is most likely the case if you installed the PostgreSQL instance yourself. Being a superuser means that you are not subject to access controls. For the purposes of this tutorial that is not important.</p>
+<p>If you encounter problems starting <code>psql</code> then go back to the previous section. The diagnostics of <code>createdb</code> and <code>psql</code> are similar, and if the former worked the latter should work as well.</p>
+<p>The last line printed out by <code>psql</code> is the prompt, and it indicates that <code>psql</code> is listening to you and that you can type SQL queries into a work space maintained by <code>psql</code>. Try out these commands:</p>
+<pre tabindex="0"><code>postgres=&gt; SELECT version();
+                                         version
+------------------------------------------------------------------------------------------
+ PostgreSQL 12.1 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit
+(1 row)
+
+postgres=&gt; SELECT current_date;
+    date
+------------
+ 2016-01-07
+(1 row)
+
+postgres=&gt; SELECT 2 + 2;
+ ?column?
+----------
+        4
+(1 row)
+</code></pre><p>The <code>psql</code> program has a number of internal commands that are not SQL commands. They begin with the backslash character, “<code>\</code>”. For example, you can get help on the syntax of various PostgreSQL SQL commands by typing:</p>
+<pre tabindex="0"><code>postgres=&gt; \h
+</code></pre><p>To get out of <code>psql</code>, type:</p>
+<pre tabindex="0"><code>postgres=&gt; \q
+</code></pre><p>and <code>psql</code> will quit and return you to your command shell. (For more internal commands, type <code>\?</code> at the <code>psql</code> prompt.) The full capabilities of <code>psql</code> are documented in <a
   class="gblog-markdown__link"
-  href="https://gohugo.io/getting-started/configuration/#configure-minify"
+  href="https://www.postgresql.org/docs/12/app-psql.html"
   
->configuration</a>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">minify</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">disableHTML</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div><div class="gblog-post__anchorwrap flex align-center">
+>psql</a>. In this tutorial we will not use these features explicitly, but you can use them yourself when it is helpful.</p>
+<div class="gblog-post__anchorwrap flex align-center">
     <h2 id="whats-next">
         Whats next?
     </h2>
@@ -1242,90 +1027,11 @@ If you have a choice, using a domain/subdomain should always be the preferred so
         <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
     </a>
 </div>
-<p>There are a lot more things to discover. To get the most out of the Theme we have collected interesting posts covering more advanced topics:</p>
-<ul>
-<li><a
+<p>There are a lot more things to discover. To get more information, please refer to <a
   class="gblog-markdown__link"
-  href="/posts/usage/configuration/"
+  href="https://www.postgresql.org/docs/12/index.html"
   
->Configuration</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/usage/menus/"
-  
->Menus</a></li>
-<li><strong>Features</strong>
-<ul>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/code-blocks/"
-  
->Code Blocks</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/dark-mode/"
-  
->Dark Mode</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/icon-sets/"
-  
->Icon Sets</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/theming/"
-  
->Theming</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/authors/"
-  
->Authors</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/features/sticky/"
-  
->Sticky Posts</a></li>
-</ul>
-</li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/advanced/shortcodes/"
-  
->Shortcodes</a>
-<ul>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/post-with-images/"
-  
->Advanced Images</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/advanced/includes/"
-  
->Includes</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/advanced/toc/"
-  
->Table of Content</a></li>
-</ul>
-</li>
-<li><strong>Asciidoc</strong>
-<ul>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/asciidoc/admonitions/"
-  
->Admonitions</a></li>
-<li><a
-  class="gblog-markdown__link"
-  href="/posts/asciidoc/admonition-icons/"
-  
->Admonition Icons</a></li>
-</ul>
-</li>
-</ul>
+>PostgreSQL Documentation</a>.</p>
 
     </section>
   </article>

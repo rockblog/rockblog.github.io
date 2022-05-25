@@ -10,7 +10,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content="Hugo 0.99.1" />
-  <meta name="description" content="Overview of all available site and page configuration options provided by the theme." />
+  <meta name="description" content="Overview of all available server configuration options provided by the database." />
     <meta name="author" content="John Doe" />
 
     <title>Configuration | Rockblog</title>
@@ -38,7 +38,7 @@
   />
   <meta property="og:site_name" content="Rockblog" />
   <meta property="og:image" content="http://blog.rockdata.net/socialmedia2.png" />
-  <meta property="og:description" content="Overview of all available site and page configuration options provided by the theme." />
+  <meta property="og:description" content="Overview of all available server configuration options provided by the database." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.rockdata.net/posts/usage/configuration/" />
 
@@ -49,14 +49,14 @@
     />
     <meta
       property="article:modified_time"
-      content="2022-05-22T14:46:26+08:00"
+      content="2022-05-24T09:25:10+08:00"
     />
 
 
   <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Configuration" />
   <meta property="twitter:image" content="http://blog.rockdata.net/socialmedia2.png" />
-  <meta name="twitter:description" content="Overview of all available site and page configuration options provided by the theme." />
+  <meta name="twitter:description" content="Overview of all available server configuration options provided by the database." />
 
 <script type="application/ld+json">
   {
@@ -66,9 +66,9 @@
       "name": "Configuration",
       "url" : "http://blog.rockdata.net/posts/usage/configuration/",
       "headline": "Configuration",
-      "description": "Overview of all available site and page configuration options provided by the theme.",
+      "description": "Overview of all available server configuration options provided by the database.",
       "thumbnailUrl": "http://blog.rockdata.net/socialmedia2.png",
-      "wordCount" : "996",
+      "wordCount" : "570",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -86,7 +86,7 @@
       "copyrightYear" : "2021",
       "dateCreated": "2021-05-23T20:00:00.00Z",
       "datePublished": "2021-05-23T20:00:00.00Z",
-      "dateModified": "2022-05-22T14:46:26.00Z",
+      "dateModified": "2022-05-24T09:25:10.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "Rockblog",
@@ -819,18 +819,18 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
           <span class="flex align-center no-wrap">
   <svg class="gblog-icon gblog_date"><use xlink:href="#gblog_date"></use></svg>
   <span class="gblog-post__tag">
-    <time datetime="2022-05-22T14:46:26&#43;08:00">
+    <time datetime="2022-05-24T09:25:10&#43;08:00">
       
         Updated on
       
-      May 22, 2022
+      May 24, 2022
     </time>
   </span>
 </span>
 
 <span class="flex align-center no-wrap">
   <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
-  <span class="gblog-post__tag">5 min read</span>
+  <span class="gblog-post__tag">3 min read</span>
 </span>
 
 
@@ -911,13 +911,13 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
       
     </header>
     <section class="gblog-markdown">
-      <p>Overview of all available site and page configuration options provided by the theme.</p>
+      <p>Overview of all available server configuration options provided by the database.</p>
   <div class="gblog-toc gblog-toc__level--3">
     <nav id="TableOfContents"><ul>
         <li><a href="#configuration">Configuration</a>
           <ul>
-            <li><a href="#site-configuration">Site configuration</a></li>
-            <li><a href="#page-configuration">Page configuration</a></li>
+            <li><a href="#automatic-analyzing">Automatic Analyzing</a></li>
+            <li><a href="#run-time-statistics">Run-time Statistics</a></li>
           </ul>
         </li>
       </ul></nav>
@@ -934,366 +934,71 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </a>
 </div>
 <div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="site-configuration">
-        Site configuration
+    <h3 id="automatic-analyzing">
+        Automatic Analyzing
     </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/configuration/#site-configuration" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Site configuration" href="#site-configuration">
+    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/configuration/#automatic-analyzing" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Automatic Analyzing" href="#automatic-analyzing">
         <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
     </a>
 </div>
-
-
-
-
-
-<div class="gblog-tabs">
+<p>These settings control the behavior of the <em>autoanalyze</em> feature. Refer to <a
+  class="gblog-markdown__link"
+  href="https://www.postgresql.org/docs/12/routine-vacuuming.html#AUTOVACUUM"
   
-    <input
-      type="radio"
-      class="gblog-tabs__control hidden"
-      name="tabs-site-config"
-      id="tabs-site-config-0"
-      checked="checked"
-    />
-    <label for="tabs-site-config-0" class="gblog-tabs__label">
-      TOML
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Toml" data-lang="Toml"><span class="line"><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;http://localhost&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Geekblog&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-geekblog&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">paginate</span> <span class="p">=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pluralizeListTitles</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Required to get well formatted code blocks</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">disablePathToLower</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">enableGitInfo</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Required if you want to render robots.txt template</span>
-</span></span><span class="line"><span class="cl"><span class="nx">enableRobotsTXT</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">      <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">tableOfContents</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">startLevel</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">endLevel</span> <span class="p">=</span> <span class="mi">9</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">author</span> <span class="p">=</span> <span class="s2">&#34;authors&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">mediaTypes</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">mediaTypes</span><span class="p">.</span><span class="s2">&#34;application/atom+xml&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">suffixes</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;xml&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">outputFormats</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">outputFormats</span><span class="p">.</span><span class="nx">Atom</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># https://validator.w3.org/feed/docs/atom.html#whatIsAtom</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Atom&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mediaType</span> <span class="p">=</span> <span class="s2">&#34;application/atom+xml&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># generated file = &lt;baseName&gt;.&lt;mediaType.&#34;application/atom+xml&#34;.suffixes[0]&gt; = atom.xml</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">baseName</span> <span class="p">=</span> <span class="s2">&#34;feed&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">isPlainText</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">rel</span> <span class="p">=</span> <span class="s2">&#34;alternate&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">isHTML</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">noUgly</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">permalinkable</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">outputs</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">home</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;ATOM&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">page</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">section</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">taxonomy</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">term</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;ATOM&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s2">&#34;Blog about my favorite topics&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">description</span> <span class="p">=</span> <span class="s2">&#34;This is my personal blog about tech.&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">keywords</span> <span class="p">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">images</span> <span class="p">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default static/brand.svg) Set the path to a logo for the Geekblog</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># relative to your &#39;static/&#39; folder.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">logo</span> <span class="p">=</span> <span class="s2">&#34;logo.png&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default 6) Set how many table of contents levels to be showed on page.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># You can also specify this parameter per page in front matter.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogToC</span> <span class="p">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default none) Add a link to your Legal Notice page to the site footer.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># It can be either a remote url or a local file path relative to your content directory.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogLegalNotice</span> <span class="p">=</span> <span class="s2">&#34;https://blog.example.com/legal&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default none) Add a link to your Privacy Policy page to the site footer.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># It can be either a remote url or a local file path relative to your content directory.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogPrivacyPolicy</span> <span class="p">=</span> <span class="s2">&#34;/privacy&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default true) Add an anchor link to headlines.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogAnchor</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default none) Sites main author.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogAuthor</span> <span class="p">=</span> <span class="s2">&#34;john-doe&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default posts) Set the name of the default content section.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogContentSection</span> <span class="p">=</span> <span class="s2">&#34;my-pages&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default true) Enable or disable image lazy loading for images rendered</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># by the &#39;img&#39; shortcode.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogImageLazyLoading</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default false) Set HTMl &lt;base&gt; to .Site.BaseURL if enabled. It might be required</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># if a subdirectory is used within Hugo&#39;s BaseURL.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># See https://developer.mozilla.org/de/docs/Web/HTML/Element/base.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogOverwriteHTMLBase</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default true) Enable or disable adding tags automatically to the main menu.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogTagsToMenu</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default false) Auto-decrease brightness of images and add a slightly grayscale to avoid</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># bright spots while using the dark mode.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogDarkModeDim</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default true) Display a &#34;Back to top&#34; link in the site footer.</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">geekblogBackToTop</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default none) Adds a &#34;Hosted on &lt;provider&gt;&#34; line to the footer.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># Could be used if you want to give credits to your hosting provider.</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">geekblogHostedOn</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Uberspace&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">link</span> <span class="p">=</span> <span class="s2">&#34;https://uberspace.de/en/&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c"># (Optional, default none) Adds a &#34;Content licensed under &lt;license&gt;&#34; line to the footer.</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># Could be used if you want to define a default license for your content.</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">geekblogContentLicense</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;CC BY-SA 4.0&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">link</span> <span class="p">=</span> <span class="s2">&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34;</span>
-</span></span></code></pre></div>
-    </div>
+>Section 24.1.6</a> for more information. Note that many of these settings can be overridden on a per-table basis; see <a
+  class="gblog-markdown__link"
+  href="https://www.postgresql.org/docs/12/sql-createtable.html#SQL-CREATETABLE-STORAGE-PARAMETERS"
   
-    <input
-      type="radio"
-      class="gblog-tabs__control hidden"
-      name="tabs-site-config"
-      id="tabs-site-config-1"
-      
-    />
-    <label for="tabs-site-config-1" class="gblog-tabs__label">
-      YAML
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Yaml" data-lang="Yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">baseURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;http://localhost&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Geekblog&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">theme</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;hugo-geekblog&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">paginate</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">pluralizeListTitles</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Required to get well formatted code blocks</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">pygmentsUseClasses</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">pygmentsCodeFences</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">disablePathToLower</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">enableGitInfo</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Required if you want to render robots.txt template</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">enableRobotsTXT</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">markup</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">goldmark</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">renderer</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">unsafe</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">tableOfContents</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">startLevel</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">endLevel</span><span class="p">:</span><span class="w"> </span><span class="m">9</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">taxonomies</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="l">authors</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">tag</span><span class="p">:</span><span class="w"> </span><span class="l">tags</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">mediaTypes</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s2">&#34;application/atom+xml&#34;</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">suffixes</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;xml&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">outputFormats</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">Atom</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c"># https://validator.w3.org/feed/docs/atom.html#whatIsAtom</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Atom&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">mediaType</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;application/atom+xml&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c"># generated file: &lt;baseName&gt;.&lt;mediaType.&#34;application/atom+xml&#34;.suffixes[0]&gt; = atom.xml</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">baseName</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;feed&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">isPlainText</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">rel</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;alternate&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">isHTML</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">noUgly</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">permalinkable</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">outputs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">home</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">HTML</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">ATOM</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">page</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">HTML</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">section</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">HTML</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">taxonomy</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">HTML</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">term</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">HTML</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">ATOM</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">params</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">subtitle</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Blog about my favorite topics&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;This is my personal blog about tech.&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">keywords</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">images</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default static/brand.svg) Set the path to a logo for the Geekblog</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># relative to your &#39;static/&#39; folder.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">logo</span><span class="p">:</span><span class="w"> </span><span class="l">logo.png</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default 6) Set how many table of contents levels to be showed on page.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># You can also specify this parameter per page in front matter.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogToC</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default none) Add a link to your Legal Notice page to the site footer.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># It can be either a remote url or a local file path relative to your content directory.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogLegalNotice</span><span class="p">:</span><span class="w"> </span><span class="l">https://blog.example.com/legal</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default none) Add a link to your Privacy Policy page to the site footer.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># It can be either a remote url or a local file path relative to your content directory.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogPrivacyPolicy</span><span class="p">:</span><span class="w"> </span><span class="l">/privacy</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default true) Add an anchor link to headlines.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogAnchor</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default none) Sites main author.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogAuthor</span><span class="p">:</span><span class="w"> </span><span class="l">john-doe</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default posts) Set the name of the default content section.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogContentSection</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;my-pages&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default true) Enable or disable image lazy loading for images rendered</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># by the &#39;img&#39; shortcode.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogImageLazyLoading</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default false) Set HTMl &lt;base&gt; to .Site.BaseURL if enabled. It might be required</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># if a subdirectory is used within Hugo&#39;s BaseURL.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># See https://developer.mozilla.org/de/docs/Web/HTML/Element/base.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogOverwriteHTMLBase</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default true) Enable or disable adding tags automatically to the main menu.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogTagsToMenu</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default false) Auto-decrease brightness of images and add a slightly grayscale to avoid</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># bright spots while using the dark mode.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogDarkModeDim</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="c"># (Optional, default true) Display a &#34;Back to top&#34; link in the site footer.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogBackToTop</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default none) Adds a &#34;Hosted on &lt;provider&gt;&#34; line to the footer.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Could be used if you want to give credits to your hosting provider.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogHostedOn</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Uberspace</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="l">https://uberspace.de/en/</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># (Optional, default none) Adds a &#34;Content licensed under &lt;license&gt;&#34; line to the footer.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Could be used if you want to define a default license for your content.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">geekblogContentLicense</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">CC BY-SA 4.0</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="l">https://creativecommons.org/licenses/by-sa/4.0/</span><span class="w">
-</span></span></span></code></pre></div>
-    </div>
+>Storage Parameters</a>.</p>
+<ul>
+<li>
+<p><code>autoanalyze</code> (<code>boolean</code>)</p>
+<p>Controls whether the server should run the autoanalyze launcher daemon. This is on by default; however, <a
+  class="gblog-markdown__link"
+  href="https://www.postgresql.org/docs/12/runtime-config-statistics.html#GUC-TRACK-COUNTS"
   
-</div>
-
+>track_counts</a> must also be enabled for autoanalyze to work. This parameter can only be set in the <code>postgresql.conf</code> file or on the server command line; however, autoanalyzing can be disabled for individual tables by changing table storage parameters.</p>
+</li>
+<li>
+<p><code>log_autoanalyze_min_duration</code> (<code>integer</code>)</p>
+<p>Causes each action executed by autoanalyze to be logged if it ran for at least the specified amount of time. Setting this to zero logs all autoanalyze actions. <code>-1</code> (the default) disables logging autoanalyze actions. If this value is specified without units, it is taken as milliseconds. For example, if you set this to <code>250ms</code> then all automatic analyzes that run 250ms or longer will be logged. In addition, when this parameter is set to any value other than <code>-1</code>, a message will be logged if an autoanalyze action is skipped due to a conflicting lock or a concurrently dropped relation. Enabling this parameter can be helpful in tracking autoanalyze activity. This parameter can only be set in the <code>postgresql.conf</code> file or on the server command line; but the setting can be overridden for individual tables by changing table storage parameters.</p>
+</li>
+<li>
+<p><code>autoanalyze_max_workers</code> (<code>integer</code>)</p>
+<p>Specifies the maximum number of autoanalyze processes (other than the autoanalyze launcher) that may be running at any one time. The default is three. This parameter can only be set at server start.</p>
+</li>
+<li>
+<p><code>autoanalyze_naptime</code> (<code>integer</code>)</p>
+<p>Specifies the minimum delay between autoanalyze runs on any given database. In each round the daemon examines the database and issues <code>ANALYZE</code> commands as needed for tables in that database. If this value is specified without units, it is taken as seconds. The default is one minute (<code>1min</code>). This parameter can only be set in the <code>postgresql.conf</code> file or on the server command line.</p>
+</li>
+<li>
+<p><code>autoanalyze_base_threshold</code> (<code>integer</code>)</p>
+<p>Specifies the minimum number of inserted, updated or deleted tuples needed to trigger an <code>ANALYZE</code> in any one table. The default is 50 tuples. This parameter can only be set in the <code>postgresql.conf</code> file or on the server command line; but the setting can be overridden for individual tables by changing table storage parameters.</p>
+</li>
+<li>
+<p><code>autoanalyze_scale_factor</code> (<code>floating point</code>)</p>
+<p>Specifies a fraction of the table size to add to <code>autovacuum_analyze_threshold</code> when deciding whether to trigger an <code>ANALYZE</code>. The default is 0.1 (10% of table size). This parameter can only be set in the <code>postgresql.conf</code> file or on the server command line; but the setting can be overridden for individual tables by changing table storage parameters.</p>
+</li>
+</ul>
 <div class="gblog-post__anchorwrap flex align-center">
-    <h3 id="page-configuration">
-        Page configuration
+    <h3 id="run-time-statistics">
+        Run-time Statistics
     </h3>
-    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/configuration/#page-configuration" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Page configuration" href="#page-configuration">
+    <a data-clipboard-text="http://blog.rockdata.net/posts/usage/configuration/#run-time-statistics" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Run-time Statistics" href="#run-time-statistics">
         <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
     </a>
 </div>
-
-
-
-
-
-<div class="gblog-tabs">
+<p>These parameters control server-wide statistics collection features. When statistics collection is enabled, the data that is produced can be accessed via the <code>pg_stat</code> and <code>pg_statio</code> family of system views. Refer to <a
+  class="gblog-markdown__link"
+  href="https://www.postgresql.org/docs/12/monitoring.html"
   
-    <input
-      type="radio"
-      class="gblog-tabs__control hidden"
-      name="tabs-page-config"
-      id="tabs-page-config-0"
-      checked="checked"
-    />
-    <label for="tabs-page-config-0" class="gblog-tabs__label">
-      TOML
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Toml" data-lang="Toml"><span class="line"><span class="cl"><span class="c"># Title of your post. If not set, filename will be used.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="nx">My</span> <span class="nx">first</span> <span class="nx">post</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Set weigth to 1 to mark this post as sticky post.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># List of authors of the post.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">authors</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;john-doe&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Tags for this post.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">tags</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;Open Source&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Set how many table of contents levels to be showed on page.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">geekblogToC</span> <span class="p">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Add an anchor link to headlines.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">geekblogAnchor</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div>
-    </div>
-  
-    <input
-      type="radio"
-      class="gblog-tabs__control hidden"
-      name="tabs-page-config"
-      id="tabs-page-config-1"
-      
-    />
-    <label for="tabs-page-config-1" class="gblog-tabs__label">
-      YAML
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Yaml" data-lang="Yaml"><span class="line"><span class="cl"><span class="c"># Title of your post. If not set, filename will be used.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">My first post</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Set weigth to 1 to mark this post as sticky post.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># List of authors of the post.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">authors</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">john-doe</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Tags for this post.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">tags</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">Open Source</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Set how many table of contents levels to be showed on page.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">geekblogToC</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Add an anchor link to headlines.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">geekblogAnchor</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span></code></pre></div>
-    </div>
-  
-</div>
+>Chapter 27</a> for more information.</p>
+<ul>
+<li>
+<p><code>track_wait_events</code> (<code>boolean</code>)</p>
+<p>Enables the collection of information on the wait events occured in each session, include occured times and timing information. This parameter is on by default. Note that even when enabled, this information is not visible to all users, only to superusers and the user owning the session being reported on, so it should not represent a security risk. Only superusers can change this setting.</p>
+</li>
+</ul>
     </section>
   </article>
 
