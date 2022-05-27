@@ -6,7 +6,7 @@
             <link href="http://blog.rockdata.net/" rel="alternate" type="text/html" title="HTML" />
             <link href="http://blog.rockdata.net/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="http://blog.rockdata.net/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-05-25T18:56:31+08:00</updated>
+    <updated>2022-05-27T21:24:19+08:00</updated>
         <author>
             <name>John Doe</name>
                 <email>john@example.com</email>
@@ -201,7 +201,7 @@ postgres=&amp;gt; SELECT 2 + 2;
                         <name>John Doe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-23T20:20:52+08:00</updated>
+            <updated>2022-05-27T20:54:03+08:00</updated>
             <content type="html">
                 &lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -251,16 +251,26 @@ postgres=&amp;gt; SELECT 2 + 2;
                                 <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
-            <title>Points to note when migrating from oracle to postgres</title>
+            <title>Migration from oracle to postgres</title>
             <link href="http://blog.rockdata.net/posts/practice/oracle-to-postgres/" rel="alternate" type="text/html"  hreflang="en" />
             <id>http://blog.rockdata.net/posts/practice/oracle-to-postgres/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-23T20:20:52+08:00</updated>
+            <updated>2022-05-26T16:50:20+08:00</updated>
             <content type="html">
-                &lt;p&gt;CNBC&amp;rsquo;s Eugene Kim posted &lt;a
+                &lt;p&gt;The toughest things happened in migration from oracle to postgres:&lt;/p&gt;
+&lt;p&gt;The famous &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.modb.pro/db/82136&#34;
+  
+&gt;ERROR: current transaction is aborted, commands ignored until end of transaction block&lt;/a&gt;, and some discussion in community&amp;rsquo;s pgsql-hackers group: &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.postgresql.org/message-id/flat/0A3221C70F24FB45833433255569204D1F6A9286%40G01JPEXMBYT05&#34;
+  
+&gt;Statement-level rollback&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;CNBC&amp;rsquo;s Eugene Kim posted &lt;a
   class=&#34;gblog-markdown__link&#34;
   href=&#34;https://www.cnbc.com/2018/10/23/amazon-move-off-oracle-caused-prime-day-outage-in-warehouse.html&#34;
   
@@ -275,6 +285,12 @@ postgres=&amp;gt; SELECT 2 + 2;
   href=&#34;https://aws.amazon.com/blogs/database/convert-the-number-data-type-from-oracle-to-postgresql-part-2/&#34;
   
 &gt;Convert the NUMBER data type from Oracle to PostgreSQL – Part 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some migration experience:&lt;/p&gt;
+&lt;p&gt;Venkata B Nagothi&amp;rsquo;s experience on migration: &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.pgconf.asia/JA/2016/wp-content/uploads/2016/12/pgConf-Asia-Japan.pdf&#34;
+  
+&gt;Migrations to PostgreSQL from Oracle&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
                                 <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
