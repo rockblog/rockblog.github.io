@@ -61,14 +61,14 @@
         {
             "title" : "User centric product design",
             "date_published" : "2022-05-20T09:00:00+02:00",
-            "date_modified" : "2022-05-23T20:20:52+08:00",
+            "date_modified" : "2022-05-28T18:41:37+08:00",
             "id" : "http://blog.rockdata.net/posts/software/user-centric/",
             "url" : "http://blog.rockdata.net/posts/software/user-centric/","authors" : [
                 {
                     "name" : "John Doe"
                 }
             ],
-            "content_html" : "\u003cp\u003e张小龙谈产品：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/2142.html\"\n  \n\u003e产品的思路\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e周鸿祎谈产品：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/5957.html\"\n  \n\u003e像怀胎一样怀产品，要厚着脸皮听批评\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eAmazon\u0026rsquo;s Constantin Gonzalez says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://cdn0.scrvt.com/infopark23444378/16ee7c58ea6547e8/e1409f266854/Gonzalez_Innovating_on_Behalf_of_Customers-ilovepdf-compressed.pdf\"\n  \n\u003eInnovating on Behalf of Customers\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eNetgen\u0026rsquo;s Mario Blažek says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://netgen.io/blog/the-most-overlooked-part-in-software-development-writing-project-documentation\"\n  \n\u003eThe most overlooked part in software development - writing project documentation\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCommand Prompt\u0026rsquo;s Joshua D. Drake states that PostgreSQL community should \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://commandprompt.com/blog/optimizing-documentation/\"\n  \n\u003eOptimizing the documentation\u003c/a\u003e.\u003c/p\u003e\n"
+            "content_html" : "\u003cp\u003eAllen Zhang talks about product：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/2142.html\"\n  \n\u003eProduct ideas\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eZhou Hongyi talks about product：\u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://www.huxiu.com/article/5957.html\"\n  \n\u003eMake products like you\u0026rsquo;re pregnant, and listen to criticism with a thick face\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eAmazon\u0026rsquo;s Constantin Gonzalez says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://cdn0.scrvt.com/infopark23444378/16ee7c58ea6547e8/e1409f266854/Gonzalez_Innovating_on_Behalf_of_Customers-ilovepdf-compressed.pdf\"\n  \n\u003eInnovating on Behalf of Customers\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eNetgen\u0026rsquo;s Mario Blažek says \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://netgen.io/blog/the-most-overlooked-part-in-software-development-writing-project-documentation\"\n  \n\u003eThe most overlooked part in software development - writing project documentation\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eCommand Prompt\u0026rsquo;s Joshua D. Drake states that PostgreSQL community should \u003ca\n  class=\"gblog-markdown__link\"\n  href=\"https://commandprompt.com/blog/optimizing-documentation/\"\n  \n\u003eOptimizing the documentation\u003c/a\u003e.\u003c/p\u003e\n"
         },
         {
             "title" : "What dose Open Souce means to users and developers?",

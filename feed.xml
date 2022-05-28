@@ -6,7 +6,7 @@
             <link href="http://blog.rockdata.net/" rel="alternate" type="text/html" title="HTML" />
             <link href="http://blog.rockdata.net/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="http://blog.rockdata.net/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-05-27T21:24:19+08:00</updated>
+    <updated>2022-05-28T18:42:16+08:00</updated>
         <author>
             <name>John Doe</name>
                 <email>john@example.com</email>
@@ -412,18 +412,18 @@ postgres=&amp;gt; SELECT 2 + 2;
                         <name>John Doe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-23T20:20:52+08:00</updated>
+            <updated>2022-05-28T18:41:37+08:00</updated>
             <content type="html">
-                &lt;p&gt;张小龙谈产品：&lt;a
+                &lt;p&gt;Allen Zhang talks about product：&lt;a
   class=&#34;gblog-markdown__link&#34;
   href=&#34;https://www.huxiu.com/article/2142.html&#34;
   
-&gt;产品的思路&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;周鸿祎谈产品：&lt;a
+&gt;Product ideas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zhou Hongyi talks about product：&lt;a
   class=&#34;gblog-markdown__link&#34;
   href=&#34;https://www.huxiu.com/article/5957.html&#34;
   
-&gt;像怀胎一样怀产品，要厚着脸皮听批评&lt;/a&gt;.&lt;/p&gt;
+&gt;Make products like you&amp;rsquo;re pregnant, and listen to criticism with a thick face&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Amazon&amp;rsquo;s Constantin Gonzalez says &lt;a
   class=&#34;gblog-markdown__link&#34;
   href=&#34;https://cdn0.scrvt.com/infopark23444378/16ee7c58ea6547e8/e1409f266854/Gonzalez_Innovating_on_Behalf_of_Customers-ilovepdf-compressed.pdf&#34;
