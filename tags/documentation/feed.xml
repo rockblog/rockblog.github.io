@@ -3,19 +3,19 @@
     <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
     <title>Documentation on Rockblog</title>
         <subtitle>Thought and work on the redrock postgres database</subtitle>
-            <link href="http://blog.rockdata.net/tags/documentation/" rel="alternate" type="text/html" title="HTML" />
-            <link href="http://blog.rockdata.net/tags/documentation/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-            <link href="http://blog.rockdata.net/tags/documentation/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-05-28T18:42:16+08:00</updated>
+            <link href="https://blog.rockdata.net/tags/documentation/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://blog.rockdata.net/tags/documentation/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://blog.rockdata.net/tags/documentation/feed.json" rel="alternate" type="application/json" title="Json" />
+    <updated>2022-05-28T19:09:05+08:00</updated>
         <author>
             <name>John Doe</name>
                 <email>john@example.com</email>
         </author>
-    <id>http://blog.rockdata.net/tags/documentation/</id>
+    <id>https://blog.rockdata.net/tags/documentation/</id>
         <entry>
             <title>Getting Started</title>
-            <link href="http://blog.rockdata.net/posts/usage/getting-started/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/usage/getting-started/</id>
+            <link href="https://blog.rockdata.net/posts/usage/getting-started/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/usage/getting-started/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -46,7 +46,7 @@
     &lt;h2 id=&#34;installation&#34;&gt;
         Installation
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#installation&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Installation&#34; href=&#34;#installation&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/getting-started/#installation&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Installation&#34; href=&#34;#installation&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -62,7 +62,7 @@
     &lt;h2 id=&#34;architectural-fundamentals&#34;&gt;
         Architectural Fundamentals
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#architectural-fundamentals&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Architectural Fundamentals&#34; href=&#34;#architectural-fundamentals&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/getting-started/#architectural-fundamentals&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Architectural Fundamentals&#34; href=&#34;#architectural-fundamentals&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -78,7 +78,7 @@
     &lt;h2 id=&#34;accessing-database&#34;&gt;
         Accessing Database
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#accessing-database&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Accessing Database&#34; href=&#34;#accessing-database&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/getting-started/#accessing-database&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Accessing Database&#34; href=&#34;#accessing-database&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -135,7 +135,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h2 id=&#34;whats-next&#34;&gt;
         Whats next?
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/getting-started/#whats-next&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Whats next?&#34; href=&#34;#whats-next&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/getting-started/#whats-next&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Whats next?&#34; href=&#34;#whats-next&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -146,14 +146,14 @@ postgres=&amp;gt; SELECT 2 + 2;
 &gt;PostgreSQL Documentation&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="http://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="https://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
         </entry>
         <entry>
             <title>Undo</title>
-            <link href="http://blog.rockdata.net/posts/features/undo/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/features/undo/</id>
+            <link href="https://blog.rockdata.net/posts/features/undo/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/features/undo/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -172,7 +172,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h4 id=&#34;undos-and-transactions&#34;&gt;
         Undos and Transactions
     &lt;/h4&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/features/undo/#undos-and-transactions&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Undos and Transactions&#34; href=&#34;#undos-and-transactions&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/features/undo/#undos-and-transactions&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Undos and Transactions&#34; href=&#34;#undos-and-transactions&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -182,21 +182,21 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h4 id=&#34;transaction-rollback&#34;&gt;
         Transaction Rollback
     &lt;/h4&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/features/undo/#transaction-rollback&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Transaction Rollback&#34; href=&#34;#transaction-rollback&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/features/undo/#transaction-rollback&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Transaction Rollback&#34; href=&#34;#transaction-rollback&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;When a &lt;code&gt;ROLLBACK&lt;/code&gt; statement is issued, the database uses undo records to roll back changes made to the database by the uncommitted transaction. During recovery, the database rolls back any uncommitted changes applied from the online redo log to the data files. Undo records provide read consistency by maintaining the before image of the data for users accessing data at the same time that another user is changing it.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="http://blog.rockdata.net/tags/features" term="features" label="Features" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="https://blog.rockdata.net/tags/features" term="features" label="Features" />
         </entry>
         <entry>
             <title>Configuration</title>
-            <link href="http://blog.rockdata.net/posts/usage/configuration/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/usage/configuration/</id>
+            <link href="https://blog.rockdata.net/posts/usage/configuration/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/usage/configuration/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -227,7 +227,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h2 id=&#34;configuration&#34;&gt;
         Configuration
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Configuration&#34; href=&#34;#configuration&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/configuration/#configuration&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Configuration&#34; href=&#34;#configuration&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -235,7 +235,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h3 id=&#34;automatic-analyzing&#34;&gt;
         Automatic Analyzing
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#automatic-analyzing&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Automatic Analyzing&#34; href=&#34;#automatic-analyzing&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/configuration/#automatic-analyzing&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Automatic Analyzing&#34; href=&#34;#automatic-analyzing&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -282,7 +282,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h3 id=&#34;run-time-statistics&#34;&gt;
         Run-time Statistics
     &lt;/h3&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/usage/configuration/#run-time-statistics&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Run-time Statistics&#34; href=&#34;#run-time-statistics&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/usage/configuration/#run-time-statistics&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Run-time Statistics&#34; href=&#34;#run-time-statistics&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -298,14 +298,14 @@ postgres=&amp;gt; SELECT 2 + 2;
 &lt;/li&gt;
 &lt;/ul&gt;
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="http://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="https://blog.rockdata.net/tags/usage" term="usage" label="Usage" />
         </entry>
         <entry>
             <title>PL/scheme, Procedural Language Handler</title>
-            <link href="http://blog.rockdata.net/posts/advanced/plscheme/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/advanced/plscheme/</id>
+            <link href="https://blog.rockdata.net/posts/advanced/plscheme/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/advanced/plscheme/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -317,7 +317,7 @@ postgres=&amp;gt; SELECT 2 + 2;
     &lt;h2 id=&#34;features&#34;&gt;
         Features
     &lt;/h2&gt;
-    &lt;a data-clipboard-text=&#34;http://blog.rockdata.net/posts/advanced/plscheme/#features&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Features&#34; href=&#34;#features&#34;&gt;
+    &lt;a data-clipboard-text=&#34;https://blog.rockdata.net/posts/advanced/plscheme/#features&#34; class=&#34;gblog-post__anchor gblog-post__anchor--right clip&#34; aria-label=&#34;Anchor Features&#34; href=&#34;#features&#34;&gt;
         &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -330,8 +330,8 @@ postgres=&amp;gt; SELECT 2 + 2;
 &lt;/ul&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
-                                <category scheme="http://blog.rockdata.net/tags/features" term="features" label="Features" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/documentation" term="documentation" label="Documentation" /> 
+                                <category scheme="https://blog.rockdata.net/tags/features" term="features" label="Features" />
         </entry>
 </feed>

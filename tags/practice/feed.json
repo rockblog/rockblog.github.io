@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Practice on Rockblog",
     "description": "Thought and work on the redrock postgres database",
-    "home_page_url" : "http://blog.rockdata.net/",
-    "feed_url" : "http://blog.rockdata.net/tags/practice/feed.json",
+    "home_page_url" : "https://blog.rockdata.net/",
+    "feed_url" : "https://blog.rockdata.net/tags/practice/feed.json",
     "authors" : [
         {
             "name" : "John Doe"
@@ -14,8 +14,8 @@
             "title" : "Migration from oracle to postgres",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-26T16:50:20+08:00",
-            "id" : "http://blog.rockdata.net/posts/practice/oracle-to-postgres/",
-            "url" : "http://blog.rockdata.net/posts/practice/oracle-to-postgres/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/practice/oracle-to-postgres/",
+            "url" : "https://blog.rockdata.net/posts/practice/oracle-to-postgres/","authors" : [
                 {
                     "name" : "John Doe"
                 }

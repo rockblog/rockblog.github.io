@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://blog.rockdata.net/posts/usage/getting-started/</loc>
+    <loc>https://blog.rockdata.net/posts/usage/getting-started/</loc>
     <lastmod>2022-05-24T09:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/features/undo/</loc>
+    <loc>https://blog.rockdata.net/posts/features/undo/</loc>
     <lastmod>2022-05-23T20:13:05+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/database-criticism/</loc>
+    <loc>https://blog.rockdata.net/posts/software/database-criticism/</loc>
     <lastmod>2022-05-27T20:54:03+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/practice/oracle-to-postgres/</loc>
+    <loc>https://blog.rockdata.net/posts/practice/oracle-to-postgres/</loc>
     <lastmod>2022-05-26T16:50:20+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/postgres-things/</loc>
+    <loc>https://blog.rockdata.net/posts/software/postgres-things/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/database-courses/</loc>
+    <loc>https://blog.rockdata.net/posts/software/database-courses/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/postgres-popularity/</loc>
+    <loc>https://blog.rockdata.net/posts/software/postgres-popularity/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/user-centric/</loc>
+    <loc>https://blog.rockdata.net/posts/software/user-centric/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/open-source/</loc>
+    <loc>https://blog.rockdata.net/posts/software/open-source/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/software/leaving-mysql/</loc>
+    <loc>https://blog.rockdata.net/posts/software/leaving-mysql/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/authors/</loc>
+    <loc>https://blog.rockdata.net/authors/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/business/</loc>
+    <loc>https://blog.rockdata.net/tags/business/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/authors/john-doe/</loc>
+    <loc>https://blog.rockdata.net/authors/john-doe/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/</loc>
+    <loc>https://blog.rockdata.net/posts/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/practice/</loc>
+    <loc>https://blog.rockdata.net/tags/practice/</loc>
     <lastmod>2022-05-26T16:50:20+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/</loc>
+    <loc>https://blog.rockdata.net/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/</loc>
+    <loc>https://blog.rockdata.net/tags/</loc>
     <lastmod>2022-05-28T18:41:37+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/authors/steinar-gunderson/</loc>
+    <loc>https://blog.rockdata.net/authors/steinar-gunderson/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/usage/configuration/</loc>
+    <loc>https://blog.rockdata.net/posts/usage/configuration/</loc>
     <lastmod>2022-05-24T09:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/documentation/</loc>
+    <loc>https://blog.rockdata.net/tags/documentation/</loc>
     <lastmod>2022-05-24T09:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/features/</loc>
+    <loc>https://blog.rockdata.net/tags/features/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/posts/advanced/plscheme/</loc>
+    <loc>https://blog.rockdata.net/posts/advanced/plscheme/</loc>
     <lastmod>2022-05-23T20:20:52+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/tags/usage/</loc>
+    <loc>https://blog.rockdata.net/tags/usage/</loc>
     <lastmod>2022-05-24T09:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/_includes/include-page/</loc>
+    <loc>https://blog.rockdata.net/_includes/include-page/</loc>
     <lastmod>2022-05-22T14:46:26+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/_includes/</loc>
+    <loc>https://blog.rockdata.net/_includes/</loc>
     <lastmod>2022-05-22T14:46:26+08:00</lastmod>
   </url><url>
-    <loc>http://blog.rockdata.net/contact/</loc>
+    <loc>https://blog.rockdata.net/contact/</loc>
     <lastmod>2022-05-22T14:46:26+08:00</lastmod>
   </url>
 </urlset>

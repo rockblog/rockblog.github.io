@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Steinar Gunderson on Rockblog",
     "description": "Thought and work on the redrock postgres database",
-    "home_page_url" : "http://blog.rockdata.net/",
-    "feed_url" : "http://blog.rockdata.net/authors/steinar-gunderson/feed.json",
+    "home_page_url" : "https://blog.rockdata.net/",
+    "feed_url" : "https://blog.rockdata.net/authors/steinar-gunderson/feed.json",
     "authors" : [
         {
             "name" : "John Doe"
@@ -14,8 +14,8 @@
             "title" : "Leaving MySQL",
             "date_published" : "2021-12-05T16:41:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/leaving-mysql/",
-            "url" : "http://blog.rockdata.net/posts/software/leaving-mysql/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/leaving-mysql/",
+            "url" : "https://blog.rockdata.net/posts/software/leaving-mysql/","authors" : [
                 {
                     "name" : "Steinar Gunderson"
                 }

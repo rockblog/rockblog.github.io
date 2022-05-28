@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /categories/*
 Disallow: /tags/*
 
-Sitemap: http://blog.rockdata.net/sitemap.xml
+Sitemap: https://blog.rockdata.net/sitemap.xml

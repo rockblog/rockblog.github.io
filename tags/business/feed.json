@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Business on Rockblog",
     "description": "Thought and work on the redrock postgres database",
-    "home_page_url" : "http://blog.rockdata.net/",
-    "feed_url" : "http://blog.rockdata.net/tags/business/feed.json",
+    "home_page_url" : "https://blog.rockdata.net/",
+    "feed_url" : "https://blog.rockdata.net/tags/business/feed.json",
     "authors" : [
         {
             "name" : "John Doe"
@@ -14,8 +14,8 @@
             "title" : "Criticism of relational database",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-27T20:54:03+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/database-criticism/",
-            "url" : "http://blog.rockdata.net/posts/software/database-criticism/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/database-criticism/",
+            "url" : "https://blog.rockdata.net/posts/software/database-criticism/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -26,8 +26,8 @@
             "title" : "Postgres things",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/postgres-things/",
-            "url" : "http://blog.rockdata.net/posts/software/postgres-things/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/postgres-things/",
+            "url" : "https://blog.rockdata.net/posts/software/postgres-things/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -38,8 +38,8 @@
             "title" : "Some well-known database courses",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/database-courses/",
-            "url" : "http://blog.rockdata.net/posts/software/database-courses/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/database-courses/",
+            "url" : "https://blog.rockdata.net/posts/software/database-courses/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -50,8 +50,8 @@
             "title" : "Trends of postgres's popularity",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/postgres-popularity/",
-            "url" : "http://blog.rockdata.net/posts/software/postgres-popularity/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/postgres-popularity/",
+            "url" : "https://blog.rockdata.net/posts/software/postgres-popularity/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -62,8 +62,8 @@
             "title" : "User centric product design",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-28T18:41:37+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/user-centric/",
-            "url" : "http://blog.rockdata.net/posts/software/user-centric/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/user-centric/",
+            "url" : "https://blog.rockdata.net/posts/software/user-centric/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -74,8 +74,8 @@
             "title" : "What dose Open Souce means to users and developers?",
             "date_published" : "2022-05-20T09:00:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/open-source/",
-            "url" : "http://blog.rockdata.net/posts/software/open-source/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/open-source/",
+            "url" : "https://blog.rockdata.net/posts/software/open-source/","authors" : [
                 {
                     "name" : "John Doe"
                 }
@@ -86,8 +86,8 @@
             "title" : "Leaving MySQL",
             "date_published" : "2021-12-05T16:41:00+02:00",
             "date_modified" : "2022-05-23T20:20:52+08:00",
-            "id" : "http://blog.rockdata.net/posts/software/leaving-mysql/",
-            "url" : "http://blog.rockdata.net/posts/software/leaving-mysql/","authors" : [
+            "id" : "https://blog.rockdata.net/posts/software/leaving-mysql/",
+            "url" : "https://blog.rockdata.net/posts/software/leaving-mysql/","authors" : [
                 {
                     "name" : "Steinar Gunderson"
                 }

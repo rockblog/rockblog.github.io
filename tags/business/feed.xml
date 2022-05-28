@@ -3,19 +3,19 @@
     <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
     <title>Business on Rockblog</title>
         <subtitle>Thought and work on the redrock postgres database</subtitle>
-            <link href="http://blog.rockdata.net/tags/business/" rel="alternate" type="text/html" title="HTML" />
-            <link href="http://blog.rockdata.net/tags/business/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-            <link href="http://blog.rockdata.net/tags/business/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-05-28T18:42:16+08:00</updated>
+            <link href="https://blog.rockdata.net/tags/business/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://blog.rockdata.net/tags/business/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://blog.rockdata.net/tags/business/feed.json" rel="alternate" type="application/json" title="Json" />
+    <updated>2022-05-28T19:09:05+08:00</updated>
         <author>
             <name>John Doe</name>
                 <email>john@example.com</email>
         </author>
-    <id>http://blog.rockdata.net/tags/business/</id>
+    <id>https://blog.rockdata.net/tags/business/</id>
         <entry>
             <title>Criticism of relational database</title>
-            <link href="http://blog.rockdata.net/posts/software/database-criticism/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/database-criticism/</id>
+            <link href="https://blog.rockdata.net/posts/software/database-criticism/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/database-criticism/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -66,13 +66,13 @@
 &gt;discussion at Hacker News&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>Postgres things</title>
-            <link href="http://blog.rockdata.net/posts/software/postgres-things/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/postgres-things/</id>
+            <link href="https://blog.rockdata.net/posts/software/postgres-things/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/postgres-things/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -91,13 +91,13 @@
 &gt;Postgres Marketing&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>Some well-known database courses</title>
-            <link href="http://blog.rockdata.net/posts/software/database-courses/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/database-courses/</id>
+            <link href="https://blog.rockdata.net/posts/software/database-courses/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/database-courses/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -129,13 +129,13 @@
 &gt;resources&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>Trends of postgres&#39;s popularity</title>
-            <link href="http://blog.rockdata.net/posts/software/postgres-popularity/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/postgres-popularity/</id>
+            <link href="https://blog.rockdata.net/posts/software/postgres-popularity/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/postgres-popularity/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -174,13 +174,13 @@
 &gt;Driving the Future of PostgreSQL Adoption&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>User centric product design</title>
-            <link href="http://blog.rockdata.net/posts/software/user-centric/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/user-centric/</id>
+            <link href="https://blog.rockdata.net/posts/software/user-centric/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/user-centric/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -214,13 +214,13 @@
 &gt;Optimizing the documentation&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>What dose Open Souce means to users and developers?</title>
-            <link href="http://blog.rockdata.net/posts/software/open-source/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/open-source/</id>
+            <link href="https://blog.rockdata.net/posts/software/open-source/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/open-source/</id>
                     <author>
                         <name>John Doe</name>
                     </author>
@@ -264,13 +264,13 @@
 &gt;Thoughts on Forks and Open Source Licenses&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/john-doe" term="john-doe" label="john-doe" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>Leaving MySQL</title>
-            <link href="http://blog.rockdata.net/posts/software/leaving-mysql/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://blog.rockdata.net/posts/software/leaving-mysql/</id>
+            <link href="https://blog.rockdata.net/posts/software/leaving-mysql/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/software/leaving-mysql/</id>
                     <author>
                         <name>Steinar Gunderson</name>
                     </author>
@@ -297,7 +297,7 @@
 &gt;The discussion at Hacker News&lt;/a&gt;&lt;/p&gt;
 
             </content>  
-                                <category scheme="http://blog.rockdata.net/authors/steinar-gunderson" term="steinar-gunderson" label="steinar-gunderson" />  
-                                <category scheme="http://blog.rockdata.net/tags/business" term="business" label="Business" />
+                                <category scheme="https://blog.rockdata.net/authors/steinar-gunderson" term="steinar-gunderson" label="steinar-gunderson" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
 </feed>
