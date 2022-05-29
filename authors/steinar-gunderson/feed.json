@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "Steinar Gunderson on Rockblog",
+    "title": "Steinar Gunderson on Redrock's Blog",
     "description": "Thought and work on the redrock postgres database",
     "home_page_url" : "https://blog.rockdata.net/",
     "feed_url" : "https://blog.rockdata.net/authors/steinar-gunderson/feed.json",
     "authors" : [
         {
-            "name" : "John Doe"
+            "name" : "Linn Shawn"
         }
     ],
     "items" : [
