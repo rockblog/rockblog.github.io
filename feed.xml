@@ -6,12 +6,57 @@
             <link href="https://blog.rockdata.net/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://blog.rockdata.net/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://blog.rockdata.net/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-06-03T20:37:41+08:00</updated>
+    <updated>2022-06-08T18:36:12+08:00</updated>
         <author>
             <name>Linn Shawn</name>
                 <email>linn.shawn@outlook.com</email>
         </author>
     <id>https://blog.rockdata.net/</id>
+        <entry>
+            <title>Why Postgres?</title>
+            <link href="https://blog.rockdata.net/posts/intro/why-postgres/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://blog.rockdata.net/posts/intro/why-postgres/</id>
+                    <author>
+                        <name>Linn Shawn</name>
+                    </author>
+            <published>2022-06-06T09:00:00+02:00</published>
+            <updated>2022-06-08T18:35:31+08:00</updated>
+            <content type="html">
+                &lt;p&gt;Dimitri Fontaine, a PostgreSQL Major Contributor, posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://theartofpostgresql.com/blog/2019-09-why-postgres/&#34;
+  
+&gt;Why Postgres?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Crunchy Data posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.crunchydata.com/why-postgres&#34;
+  
+&gt;Why Postgres?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2ndQuadrant&amp;rsquo;s Kirk Roybal posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.2ndquadrant.com/en/blog/postgresql-is-the-worlds-best-database/&#34;
+  
+&gt;PostgreSQL is the worlds’ best database&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2ndQuadrant&amp;rsquo;s Simon Riggs posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://www.enterprisedb.com/blog/4-reasons-postgresql-was-named-database-management-system-year-2020&#34;
+  
+&gt;4 Reasons PostgreSQL was Named Database Management System of the Year 2020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_16_2020&#34;
+  
+&gt;Why Not to Choose Postgres&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#July_8_2020&#34;
+  
+&gt;Postgres Marketing&lt;/a&gt;.&lt;/p&gt;
+
+            </content>  
+                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
+        </entry>
         <entry>
             <title>Criticism of relational database</title>
             <link href="https://blog.rockdata.net/posts/software/database-criticism/" rel="alternate" type="text/html"  hreflang="en" />
@@ -114,31 +159,6 @@
             </content>  
                                 <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
                                 <category scheme="https://blog.rockdata.net/tags/practice" term="practice" label="Practice" />
-        </entry>
-        <entry>
-            <title>Postgres things</title>
-            <link href="https://blog.rockdata.net/posts/software/postgres-things/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>https://blog.rockdata.net/posts/software/postgres-things/</id>
-                    <author>
-                        <name>Linn Shawn</name>
-                    </author>
-            <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
-            <content type="html">
-                &lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
-  class=&#34;gblog-markdown__link&#34;
-  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#September_16_2020&#34;
-  
-&gt;Why Not to Choose Postgres&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
-  class=&#34;gblog-markdown__link&#34;
-  href=&#34;https://momjian.us/main/blogs/pgblog/2020.html#July_8_2020&#34;
-  
-&gt;Postgres Marketing&lt;/a&gt;.&lt;/p&gt;
-
-            </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
-                                <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
             <title>Some well-known database courses</title>
