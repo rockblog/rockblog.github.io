@@ -6,21 +6,17 @@
             <link href="https://blog.rockdata.net/tags/business/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://blog.rockdata.net/tags/business/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://blog.rockdata.net/tags/business/feed.json" rel="alternate" type="application/json" title="Json" />
-    <updated>2022-06-08T18:36:12+08:00</updated>
-        <author>
-            <name>Linn Shawn</name>
-                <email>linn.shawn@outlook.com</email>
-        </author>
+    <updated>2022-06-26T18:08:48+08:00</updated>
     <id>https://blog.rockdata.net/tags/business/</id>
         <entry>
             <title>Why Postgres?</title>
             <link href="https://blog.rockdata.net/posts/intro/why-postgres/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/intro/why-postgres/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-06-06T09:00:00+02:00</published>
-            <updated>2022-06-08T18:35:31+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;Dimitri Fontaine, a PostgreSQL Major Contributor, posted &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -54,7 +50,7 @@
 &gt;Postgres Marketing&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
@@ -62,10 +58,10 @@
             <link href="https://blog.rockdata.net/posts/software/database-criticism/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/software/database-criticism/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;EDB&amp;rsquo;s Bruce Momjian posted &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -111,7 +107,7 @@
 &gt;discussion at Hacker News&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
@@ -119,10 +115,10 @@
             <link href="https://blog.rockdata.net/posts/software/database-courses/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/software/database-courses/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;UC Berkeley published &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -149,7 +145,7 @@
 &gt;resources&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
@@ -157,10 +153,10 @@
             <link href="https://blog.rockdata.net/posts/software/postgres-popularity/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/software/postgres-popularity/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;Amazon&amp;rsquo;s Jeff Barr posted &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -194,7 +190,7 @@
 &gt;Driving the Future of PostgreSQL Adoption&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
@@ -202,10 +198,10 @@
             <link href="https://blog.rockdata.net/posts/software/user-centric/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/software/user-centric/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;Allen Zhang talks about product：&lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -234,7 +230,7 @@
 &gt;Optimizing the documentation&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
@@ -242,10 +238,10 @@
             <link href="https://blog.rockdata.net/posts/software/open-source/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.rockdata.net/posts/software/open-source/</id>
                     <author>
-                        <name>Linn Shawn</name>
+                        <name>Richard Roe</name>
                     </author>
             <published>2022-05-20T09:00:00+02:00</published>
-            <updated>2022-05-29T10:25:15+08:00</updated>
+            <updated>2022-06-26T18:07:44+08:00</updated>
             <content type="html">
                 &lt;p&gt;solid IT&amp;rsquo;s Matthias Gelbmann posted &lt;a
   class=&#34;gblog-markdown__link&#34;
@@ -284,7 +280,7 @@
 &gt;Thoughts on Forks and Open Source Licenses&lt;/a&gt;.&lt;/p&gt;
 
             </content>  
-                                <category scheme="https://blog.rockdata.net/authors/linn-shawn" term="linn-shawn" label="linn-shawn" />  
+                                <category scheme="https://blog.rockdata.net/authors/richard-roe" term="richard-roe" label="richard-roe" />  
                                 <category scheme="https://blog.rockdata.net/tags/business" term="business" label="Business" />
         </entry>
         <entry>
